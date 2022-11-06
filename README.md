@@ -9,7 +9,7 @@ The treebank is an automatic conversion of the [SUD_Zaar-Autogramm](https://gith
 Sentences are annotated with the following metadata:
 
  - `sent_id` (which indicates the source file and the segmentation identifier in the source file)
- - `speaker_id` (which identifies the audio file on the server playing the audio recording)
+ - `speaker_id` (which identifies the turn of speech)
  - `sound_url` (which enables playback of the audio recording)
  - `seṅt_timecode` (which enables playback of the sentence)
  - `text` (lexical tokenization)
