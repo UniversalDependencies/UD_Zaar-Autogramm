@@ -36,6 +36,10 @@ This treebank was produced as part of the [Autogramm ANR project](https://autogr
 
 # Changelog
 
+* 2024-05-15 v2.14
+  * 1,047 new sentences
+  * many revisions of the annotation
+
 * 2022-11-15 v2.11
   * Initial release in Universal Dependencies.
 
