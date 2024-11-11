@@ -1,10 +1,10 @@
 Running the following version of UD tools:
-commit 78ce4b21495c6e4c17a7b07925bec1267d833d14
+commit c1984d97df0ecdcc1b50fbeaa8c96419c6321432
 Author: Dan Zeman <zeman@ufal.mff.cuni.cz>
-Date:   Sun May 5 09:21:16 2024 +0200
+Date:   Sun Nov 10 10:33:45 2024 +0100
 Evaluating the following revision of UD_Zaar-Autogramm:
-commit 82fda93c127c937c15a743e3e1382b8410ee6c64
-Merge: 64e0748 f0a3e05
+commit 443910ead8c7b32069aa91eccf5f38658d384f79
+Merge: 0b93ef8 04ecb78
 Author: Dan Zeman <zeman@ufal.mff.cuni.cz>
 Size: counted 17682 of 17682 words (nodes).
 Size: min(0, log((N/1000)**2)) = 5.74509434596723.
