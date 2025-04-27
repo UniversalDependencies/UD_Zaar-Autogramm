@@ -82,7 +82,7 @@
 9	ngə́tn	ngə́tn	NOUN	_	_	7	obl	_	AlignBegin=13366|AlignEnd=13498|Gloss=thing
 10	=wôs	=wos	PRON	_	Number=Sing|Person=3|PronType=Prs	9	nmod:poss	_	AlignBegin=13498|AlignEnd=13629|Gloss=3Sing.Gen
 11	ngap	ngap	VERB	_	_	7	conj	_	AlignBegin=13629|AlignEnd=13892|Gloss=take
-12	mbwáːɣə̂n	mbwaː	VERB	_	VerbForm=Vnoun	11	obj	_	AlignBegin=13892|AlignEnd=14153|Gloss=shoot-NMLZ|wordform=mbwaː
+12	mbwáːɣə̂n	mbwaː	VERB	_	ExtPos=NOUN|VerbForm=Vnoun	11	obj	_	AlignBegin=13892|AlignEnd=14153|Gloss=shoot-NMLZ|wordform=mbwaː
 13-14	ngə́taː	_	_	_	_	_	_	_	_
 13	ngə́tn	ngə́tn	NOUN	_	_	12	obj	_	AlignBegin=14153|AlignEnd=14249|Gloss=thing
 14	a:	a:	PART	_	PartType=Int	5	advmod	_	AlignBegin=14249|AlignEnd=14346|Gloss=VRT
@@ -173,7 +173,7 @@
 2	||	||	PUNCT	_	_	1	punct	_	AlignBegin=27670|AlignEnd=27911|Gloss=PUNCT
 3	kə	_	AUX	á	Aspect=Aor|Number=Sing|Person=2	4	aux	_	AlignBegin=27911|AlignEnd=28093|Gloss=2Sing.Aor
 4	ɬíː	ɬə	VERB	_	Aspect=Res	0	root	_	AlignBegin=28093|AlignEnd=28275|Gloss=go-Res|wordform=ɬə
-5	ŋálɣə̂n	ŋal	VERB	_	VerbForm=Vnoun	4	dep	_	AlignBegin=28275|AlignEnd=28457|Gloss=walk_around-NMLZ|wordform=ŋal
+5	ŋálɣə̂n	ŋal	VERB	_	ExtPos=NOUN|VerbForm=Vnoun	4	dep	_	AlignBegin=28275|AlignEnd=28457|Gloss=walk_around-NMLZ|wordform=ŋal
 6	námtsə	námtsə	NOUN	_	_	5	obj	_	AlignBegin=28457|AlignEnd=28639|Gloss=bush
 7	kúrûm	kúrûm	ADV	_	_	4	advmod	_	AlignBegin=28639|AlignEnd=28821|Gloss=only
 8	//	//	PUNCT	_	_	4	punct	_	AlignBegin=28821|AlignEnd=29000|Gloss=PUNCT
@@ -484,7 +484,7 @@
 # text_ortho = tə́ mbwáːɣə̂n ɬôːs tá wu tu gálálálálá gálálálálá gálálálálá //
 # text_en = When shooting the animal, you shout gálálálálá gálálálálá gálálálálá.
 1	tə́	á	ADP	_	_	2	case	_	AlignBegin=83860|AlignEnd=83995|Gloss=with
-2	mbwáːɣə̂n	mbwaː	VERB	_	VerbForm=Vnoun	5	obl	_	AlignBegin=83995|AlignEnd=84130|Gloss=shoot-NMLZ|wordform=mbwaː
+2	mbwáːɣə̂n	mbwaː	VERB	_	ExtPos=NOUN|VerbForm=Vnoun	5	obl	_	AlignBegin=83995|AlignEnd=84130|Gloss=shoot-NMLZ|wordform=mbwaː
 3	ɬôːs	ɬûː	NOUN	_	Definite=Def	2	obj	_	AlignBegin=84130|AlignEnd=84265|Gloss=animal-Def|wordform=ɬûː
 4	tá	_	AUX	a	Number=Plur|Person=3|Tense=Fut	5	aux	_	AlignBegin=84265|AlignEnd=84400|Gloss=3Plur.Fut
 5	wu	wul	VERB	_	_	0	root	_	AlignBegin=84535|AlignEnd=84670|Gloss=say
@@ -613,7 +613,7 @@
 4-5	tôŋʃí	_	_	_	_	_	_	_	_
 4	tôŋ	tôŋ	PART	_	_	5	case	_	AlignBegin=109903|AlignEnd=109993|Gloss=line_up
 5	=ʃí	=ʃí	PRON	_	Number=Plur|Person=3|PronType=Prs|Reflex=Yes	0	root	_	AlignBegin=109993|AlignEnd=110084|Gloss=3Plur.Obj
-6	á	ká	ADP	_	_	8	case	_	AlignBegin=110084|AlignEnd=110265|Gloss=at|Idiom=Yes
+6	á	ká	ADP	_	ExtPos=ADP	8	case	_	AlignBegin=110084|AlignEnd=110265|Gloss=at|Idiom=Yes
 7	teː	teː	ADP	_	_	6	fixed	_	AlignBegin=110265|AlignEnd=110446|Gloss=around|InIdiom=Yes
 8	gwàːsə̀ŋə́n	gwàːsə̀ŋ	PRON	_	Deixis=Prox|Number=Plur|Person=3|PronType=Prs	5	nmod	_	AlignBegin=110446|AlignEnd=110627|Gloss=3Plur.Gen-PROX
 9	//	//	PUNCT	_	_	5	punct	_	AlignBegin=110808|AlignEnd=110987|Gloss=PUNCT
@@ -1853,7 +1853,7 @@
 5-6	nǎːrwâːn	_	_	_	_	_	_	_	_
 5	nǎːr	naːr	NOUN	_	Definite=Cons	3	nmod	_	AlignBegin=281644|AlignEnd=281824|Gloss=hunting
 6	=wâːn	=waːn	PRON	_	Number=Sing|Person=3|PronType=Prs	5	nmod:poss	_	AlignBegin=281824|AlignEnd=282005|Gloss=2Plur.Gen
-7	ɗan	ɗan	SCONJ	_	_	10	mark	_	AlignBegin=282005|AlignEnd=282366|Gloss=REL|Idiom=Yes
+7	ɗan	ɗan	SCONJ	_	ExtPos=SCONJ	10	mark	_	AlignBegin=282005|AlignEnd=282366|Gloss=REL|Idiom=Yes
 8	tu	tu	SCONJ	_	_	7	fixed	_	AlignBegin=282366|AlignEnd=282730|Gloss=COMP|InIdiom=Yes
 9	ma	_	AUX	a	Number=Sing|Person=1|Tense=Fut	10	aux	_	AlignBegin=282730|AlignEnd=282945|Gloss=1Sing.Fut
 10	ʧi	ʧi	VERB	_	_	3	acl:relcl	_	AlignBegin=282945|AlignEnd=283160|Gloss=eat
@@ -1905,7 +1905,7 @@
 5	yi	yi	VERB	_	_	0	root	_	AlignBegin=290794|AlignEnd=290969|Gloss=be
 6	ɗa	ɗa	ADP	_	_	5	compound:prt	_	AlignBegin=290969|AlignEnd=291144|Gloss=at
 7	//+	//+	PUNCT	_	_	11	punct	_	AlignBegin=291144|AlignEnd=291320|Gloss=PUNCT
-8	séː	séː	ADV	_	_	11	mark	_	AlignBegin=291633|AlignEnd=292025|Gloss=only|Idiom=Yes
+8	séː	séː	ADV	_	ExtPos=SCONJ	11	mark	_	AlignBegin=291633|AlignEnd=292025|Gloss=only|Idiom=Yes
 9	deː	deː	ADV	_	_	8	fixed	_	AlignBegin=292025|AlignEnd=292418|Gloss=anyway|InIdiom=Yes
 10	kapkə́	kapkə́	ADP	_	_	11	mark	_	AlignBegin=292418|AlignEnd=292673|Gloss=for
 11	pîːs	pî	VERB	_	_	5	advcl	_	AlignBegin=292673|AlignEnd=292928|Gloss=arrow
@@ -1933,7 +1933,7 @@
 # text_ortho = tu naː ɣáy gón mbwaː pîːsɗi mán tuɣə < tôː ká ɬya wukês dòmín káɗâ pîːs tə̀ ngápkə hŋ́ //
 # text_en = That is if it happens that someone has shot an arrow that has hit you, well you would drink a potion so that the arrow would not hit you.
 1	tu	tu	SCONJ	_	_	14	discourse	_	AlignBegin=295480|AlignEnd=295673|Gloss=COMP
-2	naː	naː	VERB	_	_	5	mark	_	AlignBegin=295673|AlignEnd=295866|Gloss=become|Idiom=Yes
+2	naː	naː	VERB	_	ExtPos=SCONJ	5	mark	_	AlignBegin=295673|AlignEnd=295866|Gloss=become|Idiom=Yes
 3	ɣáy	káy	PRON	_	Person=3|PronType=Prs	2	fixed	_	AlignBegin=295866|AlignEnd=296059|Gloss=ANAPH|InIdiom=Yes
 4	gón	gón	PRON	_	Definite=Spec	5	nsubj	_	AlignBegin=296059|AlignEnd=296252|Gloss=SPEC
 5	mbwaː	mbwaː	VERB	_	_	14	advcl	_	AlignBegin=296252|AlignEnd=296445|Gloss=shoot
@@ -2230,7 +2230,7 @@
 22	gǎːm	gàːm	NOUN	_	_	21	obj	_	AlignBegin=346640|AlignEnd=346906|Gloss=head|wordform=gàːm
 23	=wôs	=wos	PRON	_	Number=Sing|Person=3|PronType=Prs	22	nmod:poss	_	AlignBegin=346906|AlignEnd=347118|Gloss=3Sing.Gen
 24	ɗi	ɗi	PART	_	_	21	compound:prt	_	AlignBegin=347118|AlignEnd=347331|Gloss=Ctp|wordform==ɗì
-25	á	ká	ADP	_	_	28	case	_	AlignBegin=348220|AlignEnd=348534|Gloss=at|Idiom=Yes
+25	á	ká	ADP	_	ExtPos=ADP	28	case	_	AlignBegin=348220|AlignEnd=348534|Gloss=at|Idiom=Yes
 26	gìp	gìp	ADP	_	_	25	fixed	_	AlignBegin=348534|AlignEnd=348848|Gloss=inside|InIdiom=Yes
 27	də̀n	də̀n	NOUN	_	_	28	reparandum	_	AlignBegin=348848|AlignEnd=349162|Gloss=house
 28	maːndə́	maːndə́	NOUN	_	_	21	obl	_	AlignBegin=349162|AlignEnd=349476|Gloss=fight
