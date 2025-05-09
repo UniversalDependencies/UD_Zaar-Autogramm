@@ -33,7 +33,7 @@
     <tag name="X">395</tag><!-- ʃèː, XX, x, nan, kura, shi, ba, a, tunda, ʧét -->
   </tags>
   <!-- Statistics of features and values. The comments show the most frequent word forms. -->
-  <feats unique="42">
+  <feats unique="52">
     <feat name="Aspect" value="Aor" upos="AUX">676</feat><!-- á, tə́, mə́, kə, mə, kə́, ɣə́, _, gə́, ɣə -->
     <feat name="Aspect" value="Conc" upos="AUX">4</feat><!-- myáːnaː, myàːnaː -->
     <feat name="Aspect" value="Imp" upos="AUX">274</feat><!-- ʧáː, myǎː, myáː, ʧǎː, mə̀tàyáː, tə̀tàyáː, ʧàː, kə̀tàyáː, átayáː, mətáyáː -->
@@ -49,6 +49,16 @@
     <feat name="Definite" value="Spec" upos="DET,PRON">109</feat><!-- wón, gón, gyaːgón, gwón, gòn -->
     <feat name="Deixis" value="Prox" upos="ADV,DET,NOUN,PART,PRON,PROPN,VERB">74</feat><!-- gín, ɣənín, murín, múrín, ngəʃín, ɗangənín, =wòpə́n, =ɣə, mənín, mərə́n -->
     <feat name="Deixis" value="Remt" upos="ADJ,ADV,DET,NOUN,NUM,PRON,PROPN,VERB">136</feat><!-- gíː, ʧiɣə́y, lə́ɓíː, *bàːba-íː, *mókʃi-íː, bóːlǐː, múríː, ndə́ːtsə́y, ɗáníː, ɗúːy -->
+    <feat name="ExtPos" value="ADJ" upos="NOUN">4</feat><!-- gwaɬkay, naː, ʃéːgè, ʒèy -->
+    <feat name="ExtPos" value="ADP" upos="ADP,PRON,SCONJ">32</feat><!-- á, ɗan, ɗa, ɣá, ʧì, kàmán, nə́, séː, teː, dón -->
+    <feat name="ExtPos" value="ADV" upos="ADP,ADV,AUX,DET,PRON,VERB">14</feat><!-- dóːlêː, séː, tə, átâ, dúk, kàmán, kóː, ngaːláy, yi -->
+    <feat name="ExtPos" value="AUX" upos="AUX">1</feat><!-- yi -->
+    <feat name="ExtPos" value="INTJ" upos="ADV">1</feat><!-- tá -->
+    <feat name="ExtPos" value="NOUN" upos="DET,NOUN,PART,VERB">152</feat><!-- láːpkə́nì, mbútkə̂n, láːpkə̂n, ʧáːɣə̂n, maráɣə̂n, vyàːɣə̀n, ŋálɣə́nì, ɬyáɣə̂n, fíɣə̂n, gìːɣə̀n -->
+    <feat name="ExtPos" value="PART" upos="PRON,SCONJ,VERB">3</feat><!-- tu, wu, yâːn -->
+    <feat name="ExtPos" value="PRON" upos="ADV,DET">3</feat><!-- gón, yádda -->
+    <feat name="ExtPos" value="SCONJ" upos="ADP,ADV,SCONJ,VERB">30</feat><!-- séː, ɗan, tu, kàmán, ín, naː, sábòːtu, ìdán -->
+    <feat name="ExtPos" value="VERB" upos="SCONJ,VERB">4</feat><!-- wul, fí, tu -->
     <feat name="Foreign" value="Yes" upos="X">263</feat><!-- nan, shi, ba, kura, a, tunda, kafin, wannan, ɗaya, OK -->
     <feat name="Mood" value="Cnd" upos="AUX">192</feat><!-- yáː, kyáː, myàː, myáː, yǎː, kyàː, kyǎː, myǎː, ʧǎː, mǎː -->
     <feat name="Mood" value="Irr" upos="ADV,AUX">41</feat><!-- mìː, dàː, mîː, ʧíː, ʧîː, kîː, ʧíyí, ʧíyǎː, kiː, kìː -->
@@ -79,39 +89,39 @@
   </feats>
   <!-- Statistics of universal dependency relations. -->
   <deps unique="40">
-    <dep name="acl">17</dep>
+    <dep name="acl">18</dep>
     <dep name="acl:relcl">153</dep>
-    <dep name="advcl">352</dep>
-    <dep name="advmod">1372</dep>
+    <dep name="advcl">351</dep>
+    <dep name="advmod">1368</dep>
     <dep name="amod">70</dep>
     <dep name="appos">42</dep>
     <dep name="aux">2192</dep>
     <dep name="case">603</dep>
     <dep name="cc">130</dep>
     <dep name="cc:preconj">14</dep>
-    <dep name="ccomp">220</dep>
+    <dep name="ccomp">219</dep>
     <dep name="compound">417</dep>
     <dep name="compound:prt">312</dep>
     <dep name="compound:redup">54</dep>
     <dep name="conj">215</dep>
     <dep name="cop">1</dep>
     <dep name="csubj">13</dep>
-    <dep name="dep">363</dep>
+    <dep name="dep">365</dep>
     <dep name="det">280</dep>
     <dep name="discourse">1108</dep>
     <dep name="dislocated">333</dep>
-    <dep name="fixed">105</dep>
+    <dep name="fixed">95</dep>
     <dep name="flat">7</dep>
-    <dep name="flat:foreign">89</dep>
+    <dep name="flat:foreign">98</dep>
     <dep name="flat:name">17</dep>
     <dep name="iobj">124</dep>
-    <dep name="mark">495</dep>
-    <dep name="nmod">199</dep>
+    <dep name="mark">494</dep>
+    <dep name="nmod">202</dep>
     <dep name="nmod:poss">197</dep>
     <dep name="nsubj">355</dep>
     <dep name="nummod">32</dep>
-    <dep name="obj">1054</dep>
-    <dep name="obl">365</dep>
+    <dep name="obj">1055</dep>
+    <dep name="obl">366</dep>
     <dep name="obl:arg">236</dep>
     <dep name="parataxis">520</dep>
     <dep name="punct">3200</dep>
