@@ -1,15 +1,4 @@
 # global.columns = ID FORM LEMMA UPOS XPOS FEATS HEAD DEPREL DEPS MISC
-# sent_id = SAY_BC_READ_01_Beer_138
-# sound_url = https://corporan.huma-num.fr/Archives/media/SAY/WAV/SAY_BC_READ_01_Beer-brewing.WAV
-# sent_timecode = 286745, 288760
-# text = pìtó gòs kəndí //
-# text_ortho = pìtó gòs kəndí //
-# text_en = That's "pito”.
-1	pìtó	pìtó	NOUN	_	_	0	root	_	AlignBegin=288020|AlignEnd=288205|Gloss=beer_sp
-2	gòs	gòs	PRON	_	Number=Sing|Person=3|PronType=Prs	1	dep	_	AlignBegin=288205|AlignEnd=288390|Gloss=3SingGen
-3	kəndí	kən	PART	_	PartType=Foc|Polarity=Neg	1	discourse	_	AlignBegin=288390|AlignEnd=288575|Gloss=Neg
-4	//	//	PUNCT	_	_	1	punct	_	AlignBegin=288575|AlignEnd=288760|Gloss=PUNCT
-
 # sent_id = SAY_BC_CONV_01_001-001
 # speaker_id = SP1
 # sound_url = https://corporan.huma-num.fr/Archives/media/SAY/WAV/SAY_BC_CONV_01.WAV
