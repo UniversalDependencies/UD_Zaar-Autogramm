@@ -143,21 +143,21 @@
 # sound_url = https://corporan.huma-num.fr/Archives/media/SAY/WAV/SAY_BC_CONV_01.WAV
 # sent_timecode = 13112, 16963
 # text_ortho = àmáː < súːkə́n gə̀tn tu kóːdàː mìː ɬǐː á lə̂p gyáː Sommíɗa Ɓóngaː //
-# text_en = But my wish is, if we went to the place of... Sommida... at Ɓónga's...
-1	àmáː	àmáː	CCONJ	_	_	3	discourse	_	AlignBegin=13112|AlignEnd=13254|Gloss=but
+# text_en = But my wish is, even if we went to the place of... Sommida... at Ɓónga's...
+1	àmáː	àmáː	CCONJ	_	_	8	discourse	_	AlignBegin=13112|AlignEnd=13254|Gloss=but
 2	<	<	PUNCT	_	_	1	punct	_	AlignBegin=13254|AlignEnd=13396|Gloss=PUNCT
-3	súːɣə́n	súː	VERB	_	ExtPos=NOUN|VerbForm=Vnoun	0	root	_	AlignBegin=13396|AlignEnd=13495|Gloss=want.Vnoun|Scrap=Yes
+3	súːɣə́n	súː	VERB	_	ExtPos=NOUN|VerbForm=Vnoun	8	nsubj	_	AlignBegin=13396|AlignEnd=13495|Gloss=want.Vnoun
 4	gə̀tn	gə̀tn	PRON	_	Number=Sing|Person=3|PronType=Prs	3	nmod:poss	_	AlignBegin=13594|AlignEnd=13792|Gloss=3SingGen
-5	tu	tu	SCONJ	_	_	6	dep	_	AlignBegin=13792|AlignEnd=13991|Gloss=Qot
-6	kóːdàː	dàː	SCONJ	_	Foreign=Yes|Mood=Irr	3	dep	_	AlignBegin=13991|AlignEnd=14213|Gloss=Cntf|Lang=ha
+5	tu	tu	ADP	_	_	8	mark	_	AlignBegin=13792|AlignEnd=13991|Gloss=Qot|Scrap=Yes
+6	kóːdàː	dàː	SCONJ	_	Mood=Irr	8	mark	_	AlignBegin=13991|AlignEnd=14213|Gloss=Cntf
 7	mìyì	yí	AUX	_	Mood=Irr|Number=Plur|Person=1	8	aux	_	AlignBegin=14213|AlignEnd=14435|Counterfact=Yes|Gloss=1Plur.Cntf|wordform=mìː
-8	ɬǐː	ɬə	VERB	_	_	6	root	_	Accomplished=Yes|AlignBegin=14435|AlignEnd=14546|Gloss=go.Acpl
-9	á	ká	ADP	_	_	13	case	_	AlignBegin=14657|AlignEnd=14879|Gloss=at
-10	lə̂p	lə̂p	NOUN	_	_	13	reparandum	_	AlignBegin=14879|AlignEnd=15101|Gloss=place
+8	ɬǐː	ɬə	VERB	_	_	0	root	_	Accomplished=Yes|AlignBegin=14435|AlignEnd=14546|Gloss=go.Acpl
+9	á	ká	ADP	_	_	10	case	_	AlignBegin=14657|AlignEnd=14879|Gloss=at
+10	lə̂p	lə̂p	NOUN	_	_	8	obl:arg	_	AlignBegin=14879|AlignEnd=15101|Gloss=place
 11	gyáː	gyaː	DET	_	Number=Plur	12	det	_	AlignBegin=15101|AlignEnd=15324|Gloss=Plur
 12	Sommíɗa	Sommíɗa	PROPN	_	_	10	nmod:poss	_	AlignBegin=15324|AlignEnd=15971|Gloss=Sommid'a
-13	Ɓóngaː	Ɓóngaː	PROPN	_	_	8	obl:arg	_	AlignBegin=16309|AlignEnd=16636|Gloss=B'onga
-14	&//	&//	PUNCT	_	_	3	punct	_	AlignBegin=16636|AlignEnd=16963|Gloss=PUNCT
+13	Ɓóngaː	Ɓóngaː	PROPN	_	_	10	nmod:appos	_	AlignBegin=16309|AlignEnd=16636|Gloss=B'onga
+14	&//	&//	PUNCT	_	_	8	punct	_	AlignBegin=16636|AlignEnd=16963|Gloss=PUNCT
 
 # sent_id = SAY_BC_CONV_01_021-021
 # speaker_id = SP1
@@ -189,12 +189,12 @@
 9	tə̀	tə̀	AUX	_	Mood=Sub|Number=Sing|Person=3	10	aux	_	AlignBegin=18725|AlignEnd=18965|Gloss=3Sing.Sub
 10-11	mánaː	_	_	_	_	_	_	_	_
 10	mán	mán	VERB	_	_	5	advcl	_	AlignBegin=18965|AlignEnd=19085|Gloss=come
-11	aː	ŋaː	PART	_	PartType=Ill	5	advmod	_	AlignBegin=19085|AlignEnd=19205|Gloss=Int
+11	aː	aː	PART	_	PartType=Ill	5	advmod	_	AlignBegin=19085|AlignEnd=19205|Gloss=Int
 12	kóː	kóː	CCONJ	_	_	14	cc	_	AlignBegin=19205|AlignEnd=19337|Gloss=or
 13	mə̀	tə̀	AUX	_	Mood=Sub|Number=Plur|Person=1	14	aux	_	AlignBegin=19337|AlignEnd=19469|Gloss=1Plur.Sub
 14-15	ɬàː	_	_	_	_	_	_	_	_
 14	ɬə̀	ɬə	VERB	_	_	5	conj	_	AlignBegin=19469|AlignEnd=19535|Gloss=go
-15	aː	ŋaː	PART	_	PartType=Ill	14	advmod	_	AlignBegin=19535|AlignEnd=19601|Gloss=Int
+15	aː	aː	PART	_	PartType=Ill	14	advmod	_	AlignBegin=19535|AlignEnd=19601|Gloss=Int
 16	<	<	PUNCT	_	_	5	punct	_	AlignBegin=19601|AlignEnd=19735|Gloss=PUNCT
 17	myáː	yáː	AUX	_	Aspect=Imp|Number=Sing|Person=1	18	aux	_	AlignBegin=19735|AlignEnd=19993|Gloss=1Sing.Imp
 18	yel	yel	VERB	_	_	0	root	_	AlignBegin=19993|AlignEnd=20251|Gloss=see
@@ -272,7 +272,7 @@
 3-5	gàʤǐŋaː	_	_	_	_	_	_	_	_
 3	gàʤí	gaʤí	VERB	_	_	0	root	_	AlignBegin=30350|AlignEnd=30439|Gloss=get_tired
 4	hŋ́	hŋ́	PART	_	PartType=Neg|Polarity=Neg	3	advmod	_	AlignBegin=30439|AlignEnd=30528|Gloss=Neg
-5	aː	ŋaː	PART	_	PartType=Ill	3	advmod	_	AlignBegin=30528|AlignEnd=30616|Gloss=Int
+5	aː	aː	PART	_	PartType=Ill	3	advmod	_	AlignBegin=30528|AlignEnd=30616|Gloss=Int
 6	?//	?//	PUNCT	_	_	3	punct	_	AlignBegin=30616|AlignEnd=30881|Gloss=PUNCT
 
 # sent_id = SAY_BC_CONV_01_036-036
@@ -940,7 +940,7 @@
 7	Kámʃâk	Kámʃâk	PROPN	_	_	5	obj	_	AlignBegin=109816|AlignEnd=110018|Gloss=Kamshak
 8-9	kwǎː	_	_	_	_	_	_	_	_
 8	kòː	kòː	PART	_	PartType=Top	2	discourse	_	AlignBegin=110018|AlignEnd=110220|Gloss=in_fact
-9	aː	ŋaː	PART	_	PartType=Ill	2	discourse	_	AlignBegin=110018|AlignEnd=110220|Gloss=Int
+9	aː	aː	PART	_	PartType=Ill	2	discourse	_	AlignBegin=110018|AlignEnd=110220|Gloss=Int
 10	?//	?//	PUNCT	_	_	2	punct	_	AlignBegin=110220|AlignEnd=110420|Gloss=PUNCT
 
 # sent_id = SAY_BC_CONV_01_106-106
@@ -1018,7 +1018,7 @@
 6	mə́n	mə́n	PART	_	PartType=Case	4	compound:prt	_	AlignBegin=116230|AlignEnd=116425|Gloss=Dat
 7	ɗan	ɗan	ADP	_	_	8	case	_	AlignBegin=116425|AlignEnd=116620|Gloss=like
 8	gíː	gíː	PRON	_	Deixis=Remt|PronType=Dem	4	obl	_	AlignBegin=116620|AlignEnd=116718|Gloss=Remt
-9	aː	ŋaː	PART	_	PartType=Ill	4	advmod	_	AlignBegin=116718|AlignEnd=116815|Gloss=Int
+9	aː	aː	PART	_	PartType=Ill	4	advmod	_	AlignBegin=116718|AlignEnd=116815|Gloss=Int
 10	//	//	PUNCT	_	_	4	punct	_	AlignBegin=116815|AlignEnd=117011|Gloss=PUNCT
 
 # sent_id = SAY_BC_CONV_01_115-115
@@ -1323,7 +1323,7 @@
 1	mə̀	tə̀	AUX	_	Mood=Sub|Number=Plur|Person=1	2	aux	_	AlignBegin=155930|AlignEnd=156062|Gloss=1Plur.Sub
 2	kàp	kap	VERB	_	_	0	root	_	AlignBegin=156062|AlignEnd=156194|Gloss=take
 3	Ŋgas	Ŋgas	PROPN	_	_	2	obj	_	AlignBegin=156194|AlignEnd=156260|Gloss=Angas
-4	aː	ŋaː	PART	_	PartType=Ill	2	advmod	_	AlignBegin=156260|AlignEnd=156326|Gloss=Int
+4	aː	aː	PART	_	PartType=Ill	2	advmod	_	AlignBegin=156260|AlignEnd=156326|Gloss=Int
 5	>	>	PUNCT	_	_	6	punct	_	AlignBegin=156326|AlignEnd=156457|Gloss=PUNCT
 6	Àfóː	Àfóː	PROPN	_	_	2	vocative	_	AlignBegin=156457|AlignEnd=156705|Gloss=Afo
 7	?//	?//	PUNCT	_	_	2	punct	_	AlignBegin=156705|AlignEnd=156952|Gloss=PUNCT
@@ -2365,7 +2365,7 @@
 15	mí	mí	PRON	_	Number=Plur|Person=1|PronType=Prs	14	obj	_	AlignBegin=269513|AlignEnd=269575|Gloss=1Plur.Acc|wordform==mí
 16	ɗi	ɗi	PART	_	PartType=Adv	14	compound:prt	_	AlignBegin=269575|AlignEnd=269636|Gloss=Ctp|wordform==ɗi
 17-18	ŋǎːn	_	_	_	_	_	_	_	_
-17	ŋaː	ŋaː	PART	_	PartType=Ill	6	advmod	_	AlignBegin=269636|AlignEnd=269728|Gloss=Int
+17	ŋaː	aː	PART	_	PartType=Ill	6	advmod	_	AlignBegin=269636|AlignEnd=269728|Gloss=Int
 18	hŋ́	hŋ́	PART	_	PartType=Neg|Polarity=Neg	6	advmod	_	AlignBegin=269728|AlignEnd=269821|Gloss=Neg
 19	?//	?//	PUNCT	_	_	6	punct	_	AlignBegin=269821|AlignEnd=270005|Gloss=PUNCT
 

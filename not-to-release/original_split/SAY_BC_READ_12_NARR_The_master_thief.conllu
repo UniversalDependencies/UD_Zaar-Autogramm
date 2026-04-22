@@ -1046,7 +1046,7 @@
 4	tu	tu	SCONJ	_	_	9	mark	_	AlignBegin=242290|AlignEnd=242505|Gloss=Qot
 5	mi	yi	AUX	_	Number=Sing|Person=1	9	cop	_	AlignBegin=243080|AlignEnd=243283|Copula=Yes|Gloss=1Sing.be.Loc
 6	ɣáy	káy	PRON	_	Number=Sing|Person=3	9	iobj	_	AlignBegin=243283|AlignEnd=243486|Gloss=3Sing.Loc
-7	tu	tu	SCONJ	_	_	9	mark	_	AlignBegin=243486|AlignEnd=243689|Gloss=Qot|InIdiom=Yes
+7	tu	tu	SCONJ	_	_	9	mark	_	AlignBegin=243486|AlignEnd=243689|Gloss=Qot
 8	nə	nə	AUX	_	_	9	cop	_	AlignBegin=243689|AlignEnd=243892|Copula=Yes|Gloss=be.Ident
 9	kyáːni	kyáːni	PRON	_	Number=Sing|Person=2|PronType=Prs	2	ccomp	_	AlignBegin=243892|AlignEnd=244095|Gloss=2Sing.IDP
 10	ɣən	kən	PART	_	PartType=Foc|Polarity=Neg	9	discourse	_	AlignBegin=244095|AlignEnd=244298|Gloss=Neg
@@ -1067,7 +1067,7 @@
 22	tíː	tə	PRON	_	Number=Sing|Person=3|PronType=Prs	21	obj	_	Accomplished=Yes|AlignBegin=247289|AlignEnd=247346|Gloss==3Sing.Acc.Acpl|wordform==tə
 23	oː	oː	PART	_	PartType=Ill	21	advmod	_	AlignBegin=247404|AlignEnd=247576|Gloss=Emph
 24-25	ŋǎːn	_	_	_	_	_	_	_	_
-24	ŋaː	ŋaː	PART	_	PartType=Ill|Polarity=Neg	9	advmod	_	AlignBegin=247576|AlignEnd=247748|Gloss=Int
+24	ŋaː	aː	PART	_	PartType=Ill	9	advmod	_	AlignBegin=247576|AlignEnd=247748|Gloss=Int
 25	hŋ́	hŋ́	PART	_	PartType=Neg|Polarity=Neg	9	advmod	_	AlignBegin=247576|AlignEnd=247748|Gloss=Neg
 26	?//	?//	PUNCT	_	_	2	punct	_	AlignBegin=247748|AlignEnd=247920|Gloss=PUNCT
 
@@ -2760,7 +2760,7 @@
 22	mə́ːr	mə̂ːr	NOUN	_	_	21	obj	_	AlignBegin=660352|AlignEnd=660518|Gloss=thief
 23	wò	a	AUX	_	Number=Sing|Person=3|Tense=Fut	24	aux	_	AlignBegin=660518|AlignEnd=660684|Gloss=3Sing.Fut
 24	fíː	fi	VERB	_	_	15	ccomp	_	Accomplished=Yes|AlignBegin=660684|AlignEnd=660767|Gloss=do.Acpl|wordform=fi
-25	aː	ŋaː	PART	_	PartType=Ill	24	advmod	_	AlignBegin=660850|AlignEnd=661016|Gloss=Int
+25	aː	aː	PART	_	PartType=Ill	24	advmod	_	AlignBegin=660850|AlignEnd=661016|Gloss=Int
 26	?//	?//	PUNCT	_	_	9	punct	_	AlignBegin=661016|AlignEnd=661180|Gloss=PUNCT
 
 # sent_id = SAY_BC_READ_12_NAR_The_master_thief_318-318

@@ -29,7 +29,7 @@
 3	dàːʃì	daː	NOUN	_	_	5	nsubj	_	AlignBegin=5447|AlignEnd=5627|Gloss=person.Ind
 4	yáː	yǎː	AUX	_	Mood=Cnd|Number=Sing|Person=3	5	aux	_	AlignBegin=5627|AlignEnd=5807|Gloss=3Sing.Cnd
 5	mə̂ʃíː	məs	VERB	_	_	0	root	_	Accomplished=Yes|AlignBegin=5807|AlignEnd=5987|Gloss=die.Acpl
-6	aː	ŋaː	PART	_	PartType=Ill	5	advmod	_	AlignBegin=5987|AlignEnd=6167|Gloss=Int
+6	aː	aː	PART	_	PartType=Ill	5	advmod	_	AlignBegin=5987|AlignEnd=6167|Gloss=Int
 7	?//	?//	PUNCT	_	_	5	punct	_	AlignBegin=6167|AlignEnd=6349|Gloss=PUNCT
 
 # sent_id = SAY_BC_INT_02_Burial_006-007
@@ -238,7 +238,7 @@
 9	wò	a	AUX	_	Number=Sing|Person=3|Tense=Fut	10	aux	_	AlignBegin=40612|AlignEnd=40787|Gloss=3Sing.Fut
 10	wul	wul	VERB	_	_	0	root	_	AlignBegin=40787|AlignEnd=40962|Gloss=say
 11	vìː	vìː	NOUN	_	_	10	obj:lvc	_	AlignBegin=40962|AlignEnd=41137|Gloss=speech
-12	wón	wón	DET	_	Definite=Spec	11	det	_	AlignBegin=41137|AlignEnd=41312|Gloss=SPEC|InIdiom=Yes
+12	wón	wón	DET	_	Definite=Spec	11	det	_	AlignBegin=41137|AlignEnd=41312|Gloss=SPEC
 13	tu	tu	SCONJ	_	_	23	mark	_	AlignBegin=41312|AlignEnd=41489|Gloss=Qot
 14	[	[	PUNCT	_	_	23	punct	_	AlignBegin=41489|AlignEnd=41625|Gloss=PUNCT
 15	tôː	tòː	PART	_	PartType=Disc	23	discourse	_	AlignBegin=41625|AlignEnd=41761|Gloss=well
@@ -315,7 +315,7 @@
 5	vàr	vàrì	NOUN	_	_	4	compound	_	AlignBegin=53540|AlignEnd=53670|Gloss=big
 6-7	fâː	_	_	_	_	_	_	_	_
 6	fáː	fáː	PART	_	PartType=Top	4	discourse	_	AlignBegin=53670|AlignEnd=53800|Gloss=certainly
-7	aː	ŋaː	PART	_	PartType=Ill	4	advmod	_	AlignBegin=53800|AlignEnd=53930|Gloss=Int
+7	aː	aː	PART	_	PartType=Ill	4	advmod	_	AlignBegin=53800|AlignEnd=53930|Gloss=Int
 8	?//	?//	PUNCT	_	_	4	punct	_	AlignBegin=53930|AlignEnd=54061|Gloss=PUNCT
 
 # sent_id = SAY_BC_INT_02_Burial_038-038
@@ -545,7 +545,7 @@
 2	kəndí	kən	PART	_	PartType=Foc	1	discourse	_	AlignBegin=91365|AlignEnd=91550|Gloss=be
 3-4	ŋâː	_	_	_	_	_	_	_	_
 3	hŋ́	hŋ́	PART	_	PartType=Neg|Polarity=Neg	1	advmod	_	AlignBegin=91550|AlignEnd=91735|Gloss=Neg
-4	aː	aː	PART	_	PartType=Illoc|Polarity=Neg	1	advmod	_	AlignBegin=91550|AlignEnd=91735|Gloss=Irr
+4	aː	aː	PART	_	PartType=Ill	1	advmod	_	AlignBegin=91550|AlignEnd=91735|Gloss=Irr
 5	?//	?//	PUNCT	_	_	1	punct	_	AlignBegin=91735|AlignEnd=91920|Gloss=PUNCT
 
 # sent_id = SAY_BC_INT_02_Burial_064-064
@@ -744,7 +744,7 @@
 13	pâːʃíː	paːs	VERB	_	_	10	parataxis	_	Accomplished=Yes|AlignBegin=115470|AlignEnd=115699|Gloss=disperse.Acpl
 14-15	ɣəndíyaː	_	_	_	_	_	_	_	_
 14	ɣəndí	kən	PART	_	PartType=Foc	13	discourse	_	AlignBegin=115699|AlignEnd=115928|Gloss=be
-15	aː	ŋaː	PART	_	PartType=Ill	7	advmod	_	AlignBegin=115928|AlignEnd=116157|Gloss=Int
+15	aː	aː	PART	_	PartType=Ill	7	advmod	_	AlignBegin=115928|AlignEnd=116157|Gloss=Int
 16	kóː	kóː	X	_	Foreign=Yes	7	discourse	_	AlignBegin=116157|Gloss=or|Lang=ha
 17	kuma	kúmá	X	_	Foreign=Yes	16	flat:foreign	_	AlignEnd=116386|Gloss=else|Lang=ha
 18	?//	?//	PUNCT	_	_	7	punct	_	AlignBegin=116611|AlignEnd=116611|Gloss=PUNCT
@@ -1154,7 +1154,7 @@
 # text_en = A woman?
 1-2	gə̀ɗaː	_	_	_	_	_	_	_	_
 1	gə̀t	gə̀t	NOUN	_	_	0	root	_	AlignBegin=161660|AlignEnd=161822|Gloss=woman
-2	aː	ŋaː	PART	_	PartType=Ill	1	advmod	_	AlignBegin=161822|AlignEnd=161984|Gloss=Int
+2	aː	aː	PART	_	PartType=Ill	1	advmod	_	AlignBegin=161822|AlignEnd=161984|Gloss=Int
 3	?//	?//	PUNCT	_	_	1	punct	_	AlignBegin=161984|AlignEnd=162146|Gloss=PUNCT
 
 # sent_id = SAY_BC_INT_02_Burial_121-121
@@ -1362,7 +1362,7 @@
 6	wò	a	AUX	_	Number=Sing|Person=3|Tense=Fut	7	aux	_	AlignBegin=185911|AlignEnd=186081|Gloss=3Sing.Fut
 7	fi	fi	VERB	_	_	0	root	_	AlignBegin=186081|AlignEnd=186251|Gloss=do
 8	mari	mari	ADJ	_	_	7	xcomp	_	AlignBegin=186251|AlignEnd=186421|Gloss=different
-9	aː	ŋaː	PART	_	PartType=Ill	7	advmod	_	AlignBegin=186421|AlignEnd=186591|Gloss=Int
+9	aː	aː	PART	_	PartType=Ill	7	advmod	_	AlignBegin=186421|AlignEnd=186591|Gloss=Int
 10	|c	|c	PUNCT	_	_	13	punct	_	AlignBegin=186591|AlignEnd=186761|Gloss=PUNCT
 11	kóː	kóː	CCONJ	_	_	13	cc	_	AlignBegin=186761|AlignEnd=186930|Gloss=or
 12	tá	a	AUX	_	Number=Plur|Person=3|Tense=Fut	13	aux	_	AlignBegin=186930|AlignEnd=187150|Gloss=3Plur.Fut
@@ -1386,9 +1386,9 @@
 4	mari	mari	ADJ	_	_	0	root	_	AlignBegin=188937|AlignEnd=189214|Gloss=different
 5	hŋ́	hŋ́	PART	_	PartType=Neg|Polarity=Neg	4	advmod	_	AlignBegin=189214|AlignEnd=189491|Gloss=Neg
 6	séː	séː	ADP	_	_	8	mark	_	AlignBegin=189491|AlignEnd=189768|Gloss=except_for
-7	deː	deː	PART	_	PartType=Top	8	discourse	_	AlignBegin=189768|AlignEnd=190045|Gloss=anyway|InIdiom=Yes
+7	deː	deː	PART	_	PartType=Top	8	discourse	_	AlignBegin=189768|AlignEnd=190045|Gloss=anyway
 8	wu	wu	VERB	_	Mood=Imp	4	advcl	_	AlignBegin=190045|AlignEnd=190322|Gloss=say.Imp
-9	tu	tu	SCONJ	_	_	10	case	_	AlignBegin=190322|AlignEnd=190600|Gloss=Qot|InIdiom=Yes
+9	tu	tu	SCONJ	_	_	10	case	_	AlignBegin=190322|AlignEnd=190600|Gloss=Qot
 10	mumʧês	mumtsə́	NOUN	_	Definite=Def	8	obj	_	AlignBegin=191520|AlignEnd=191813|Gloss=masquerade.Def|wordform=mumtsə́
 11	ɗanyâːlíː	ɗanyâːlíː	ADV	_	Deixis=Remt	10	advmod	_	AlignBegin=191813|AlignEnd=192106|Gloss=like_that.Remt
 12	//	//	PUNCT	_	_	4	punct	_	AlignBegin=192106|AlignEnd=192400|Gloss=PUNCT
@@ -1563,9 +1563,9 @@
 8	ɣá	a	AUX	_	Number=Sing|Person=2|Tense=Fut	9	aux	_	AlignBegin=223915|AlignEnd=224183|Gloss=2Plur.Fut
 9	fî	fi	VERB	_	_	0	root	_	AlignBegin=224183|AlignEnd=224451|Gloss=do
 10	mátaŋ	mátaŋ	NOUN	_	_	9	obj	_	AlignBegin=224451|AlignEnd=224719|Gloss=ritual_flogging
-11	sosai	sosai	X	_	ExtPos=ADV|Foreign=Yes	9	advmod	_	AlignBegin=224719|AlignEnd=224987|Gloss=very_well|Idiom=Yes|Lang=ha
-12	da	da	X	_	Foreign=Yes	11	fixed	_	AlignBegin=224987|AlignEnd=225255|Gloss=with|InIdiom=Yes|Lang=ha
-13	sosai	sosai	X	_	Foreign=Yes	11	fixed	_	AlignBegin=225255|AlignEnd=225523|Gloss=very_well|InIdiom=Yes|Lang=ha
+11	sosai	sosai	X	_	Foreign=Yes	9	obl	_	AlignBegin=224719|AlignEnd=224987|Gloss=very_well|Idiom=Yes|Lang=ha
+12	da	da	X	_	Foreign=Yes	11	flat:foreign	_	AlignBegin=224987|AlignEnd=225255|Gloss=with|InIdiom=Yes|Lang=ha
+13	sosai	sosai	X	_	Foreign=Yes	11	flat:foreign	_	AlignBegin=225255|AlignEnd=225523|Gloss=very_well|InIdiom=Yes|Lang=ha
 14	//	//	PUNCT	_	_	9	punct	_	AlignBegin=225523|AlignEnd=225795|Gloss=PUNCT
 
 # sent_id = SAY_BC_INT_02_Burial_170-173
@@ -1620,9 +1620,9 @@
 # text_ortho = ŋǎːn ?//
 # text_en = Isn't that so?
 1-2	ŋǎːn	_	_	_	_	_	_	_	_
-1	ŋaː	ŋaː	PART	_	PartType=Ill|Polarity=Neg	0	root	_	AlignBegin=233221|AlignEnd=233393|Gloss=Int
-2	hŋ́	hŋ́	PART	_	PartType=Neg|Polarity=Neg	0	root	_	AlignBegin=233221|AlignEnd=233393|Gloss=Neg
-3	?//	?//	PUNCT	_	_	2	punct	_	AlignBegin=233393|AlignEnd=233566|Gloss=PUNCT
+1	ŋaː	aː	PART	_	PartType=Ill	0	root	_	AlignBegin=233221|AlignEnd=233393|Gloss=Int
+2	hŋ́	hŋ́	PART	_	PartType=Neg|Polarity=Neg	1	advmod	_	AlignBegin=233221|AlignEnd=233393|Gloss=Neg
+3	?//	?//	PUNCT	_	_	1	punct	_	AlignBegin=233393|AlignEnd=233566|Gloss=PUNCT
 
 # sent_id = SAY_BC_INT_02_Burial_177-177
 # speaker_id = SP1
@@ -2343,7 +2343,7 @@
 2	zaːr	zaːr	NOUN	_	_	0	root	_	AlignBegin=341453|AlignEnd=341630|Gloss=person|wordform=Zaːr
 3	ɓurúk	ɓurúk	ADV	_	_	2	advmod	_	AlignBegin=341630|AlignEnd=341807|Gloss=all
 4	hŋ́	hŋ́	PART	_	PartType=Neg|Polarity=Neg	2	advmod	_	AlignBegin=341807|AlignEnd=341984|Gloss=Neg
-5	aː	aː	PART	_	PartType=Illoc|Polarity=Neg	2	advmod	_	AlignBegin=341807|AlignEnd=341984|Gloss=Irr
+5	aː	aː	PART	_	PartType=Ill	2	advmod	_	AlignBegin=341807|AlignEnd=341984|Gloss=Irr
 6	?//	?//	PUNCT	_	_	2	punct	_	AlignBegin=341984|AlignEnd=342160|Gloss=PUNCT
 
 # sent_id = SAY_BC_INT_02_Burial_249-251
@@ -2508,7 +2508,7 @@
 4	tá	a	AUX	_	Number=Plur|Person=3|Tense=Fut	5	aux	_	AlignBegin=363150|AlignEnd=363305|Gloss=3Plur.Fut
 5	wâː	waː	VERB	_	_	0	root	_	AlignBegin=363305|AlignEnd=363460|Gloss=perform
 6	ɗan	ɗan	SCONJ	_	_	11	mark	_	AlignBegin=363460|AlignEnd=363615|Gloss=like
-7	hár	hár	ADV	_	_	8	advmod	_	AlignBegin=363615|AlignEnd=363770|Gloss=even|InIdiom=Yes
+7	hár	hár	ADV	_	_	8	advmod	_	AlignBegin=363615|AlignEnd=363770|Gloss=even
 8	wò	a	AUX	_	Number=Sing|Person=3|Tense=Fut	11	reparandum	_	AlignBegin=363770|AlignEnd=363925|Gloss=3Sing.Fut
 9	||	||	PUNCT	_	_	8	punct	_	AlignBegin=363925|AlignEnd=364080|Gloss=PUNCT
 10	wò	a	AUX	_	Number=Sing|Person=3|Tense=Fut	11	aux	_	AlignBegin=364400|AlignEnd=364557|Gloss=3Sing.Fut
@@ -2604,14 +2604,14 @@
 2	<	<	PUNCT	_	_	1	punct	_	AlignBegin=377726|AlignEnd=377948|Gloss=PUNCT
 3	ngə́ʃi	ngə́tn	NOUN	_	Definite=Ind|Number=Plur	9	dislocated	_	AlignBegin=377948|AlignEnd=378170|Gloss=thing-Ind.Plur
 4	gín	giní	DET	_	Deixis=Prox|Number=Plur|PronType=Dem	3	det	_	AlignBegin=378170|AlignEnd=378392|Gloss=Prox
-5	ŋaː	ŋaː	PART	_	PartType=Ill	3	advmod	_	AlignBegin=378392|AlignEnd=378614|Gloss=Int
+5	ŋaː	aː	PART	_	PartType=Ill	3	advmod	_	AlignBegin=378392|AlignEnd=378614|Gloss=Int
 6	<	<	PUNCT	_	_	3	punct	_	AlignBegin=378614|AlignEnd=378833|Gloss=PUNCT
 7	nə	nə	AUX	_	_	9	cop	_	AlignBegin=379600|AlignEnd=379730|Copula=Yes|Gloss=be.Ident
 8	ŋǎː	ŋaː	ADJ	_	_	9	amod	_	AlignBegin=379730|AlignEnd=379860|Gloss=little
 9	ngə́r	ngə́tn	NOUN	_	_	0	root	_	AlignBegin=379860|AlignEnd=379990|Gloss=thing
 10	wón	wón	DET	_	Definite=Spec	9	det	_	AlignBegin=379990|AlignEnd=380120|Gloss=SPEC
 11	tsə́n	tsəní	ADV	_	_	9	advmod	_	AlignBegin=380120|AlignEnd=380250|Gloss=like_this
-12	yaː	ŋaː	PART	_	PartType=Ill	9	advmod	_	AlignBegin=380250|AlignEnd=380380|Gloss=Int
+12	yaː	aː	PART	_	PartType=Ill	9	advmod	_	AlignBegin=380250|AlignEnd=380380|Gloss=Int
 13	//	//	PUNCT	_	_	9	punct	_	AlignBegin=380380|AlignEnd=380509|Gloss=PUNCT
 
 # sent_id = SAY_BC_INT_02_Burial_277-277
@@ -2641,7 +2641,7 @@
 6	tsə́n	tsəní	ADV	_	_	3	advmod	_	AlignBegin=382940|AlignEnd=383056|Gloss=like_this
 7-8	fâː	_	_	_	_	_	_	_	_
 7	fáː	fáː	PART	_	PartType=Top	3	discourse	_	AlignBegin=383056|AlignEnd=383172|Gloss=certainly
-8	aː	ŋaː	PART	_	PartType=Ill	3	advmod	_	AlignBegin=383172|AlignEnd=383288|Gloss=Int
+8	aː	aː	PART	_	PartType=Ill	3	advmod	_	AlignBegin=383172|AlignEnd=383288|Gloss=Int
 9	?//	?//	PUNCT	_	_	3	punct	_	AlignBegin=383288|AlignEnd=383400|Gloss=PUNCT
 
 # sent_id = SAY_BC_INT_02_Burial_279-279
@@ -2659,8 +2659,8 @@
 5	wâː	waː	VERB	_	_	0	root	_	AlignBegin=384784|AlignEnd=384862|Gloss=perform
 6	nì	ni	PART	_	PartType=Adv	5	compound:prt	_	AlignBegin=384862|AlignEnd=384940|Gloss=Inch|Inchoative=Yes|wordform==nì
 7	miːtsə	miːtsə	NOUN	_	_	5	obj	_	AlignBegin=384940|AlignEnd=385096|Gloss=burial
-8	hár	hár	X	_	ExtPos=ADV|Foreign=Yes	7	advmod	_	AlignBegin=385096|AlignEnd=385252|Gloss=up_to|Idiom=Yes|Lang=ha
-9	yànzú	yànzú	X	_	Foreign=Yes	8	fixed	_	AlignBegin=385252|AlignEnd=385408|Gloss=now|InIdiom=Yes|Lang=ha
+8	hár	hár	X	_	Foreign=Yes	7	nmod	_	AlignBegin=385096|AlignEnd=385252|Gloss=up_to|Idiom=Yes|Lang=ha
+9	yànzú	yànzú	X	_	Foreign=Yes	8	flat:foreign	_	AlignBegin=385252|AlignEnd=385408|Gloss=now|InIdiom=Yes|Lang=ha
 10	//	//	PUNCT	_	_	5	punct	_	AlignBegin=385408|AlignEnd=385560|Gloss=PUNCT
 
 # sent_id = SAY_BC_INT_02_Burial_280-280

@@ -40,7 +40,7 @@
 22	kúskə̀	kúskə̀	ADJ	_	_	23	amod	_	AlignBegin=12396|AlignEnd=12568|Gloss=evil
 23	ngə́tn	ngə́tn	NOUN	_	_	21	obj	_	AlignBegin=12568|AlignEnd=12740|Gloss=thing
 24	wón	wón	DET	_	Definite=Spec	23	det	_	AlignBegin=12740|AlignEnd=12912|Gloss=QLT
-25	aː	ŋaː	PART	_	PartType=Ill	21	advmod	_	AlignBegin=12912|AlignEnd=13084|Gloss=Int|wordform=a:
+25	aː	aː	PART	_	PartType=Ill	21	advmod	_	AlignBegin=12912|AlignEnd=13084|Gloss=Int|wordform=a:
 26	//	//	PUNCT	_	_	10	punct	_	AlignBegin=13084|AlignEnd=13260|Gloss=PUNCT
 
 # sent_id = SAY_BC_READ_03_Sermon_006-007
@@ -725,7 +725,7 @@
 8	waːt	waːt	VERB	_	_	7	ccomp	_	AlignBegin=227138|AlignEnd=227407|Gloss=hide
 9	tákwáːrà	tákwáːrà	NOUN	_	_	8	iobj	_	AlignBegin=227407|AlignEnd=227676|Gloss=bush_fowl
 10	məníː	mə́n	PART	_	Deixis=Remt|PartType=Adv	8	compound:prt	_	AlignBegin=227676|AlignEnd=227810|Gloss=BEN.Remt|PrevRef=Yes|wordform=mə́n
-11	aː	ŋaː	PART	_	PartType=Ill	7	advmod	_	AlignBegin=227945|AlignEnd=228214|Gloss=Int|wordform=a:
+11	aː	aː	PART	_	PartType=Ill	7	advmod	_	AlignBegin=227945|AlignEnd=228214|Gloss=Int|wordform=a:
 12	//	//	PUNCT	_	_	2	punct	_	AlignBegin=228214|AlignEnd=228480|Gloss=PUNCT
 
 # sent_id = SAY_BC_READ_03_Sermon_101-101
@@ -814,9 +814,9 @@
 # text = nə́ dur ɣə́ gíː yâːn ɮàrwàː tu kyáː fi kúskə̀ raː nə mə́ːri gón ʧáː yelɣə hŋ́ kóːgón yisə́ŋ hŋ́ ɗangəní ɓitálɣə tu ɗeɓát ríːɣə̂nwâː Tʃóɣnvòn ʧi ɓaskə yélɣə̂n //
 # text_ortho = nə́ dur ɣə́ gíː yáːn ɮàrwàː tu kyáː fi kúskə̀ raː nə mə́ːri gón ʧáː yelɣə hŋ́ kóːgón yîsə́ŋ hŋ́ ɗangəní ɓitálɣə tu ɗeɓát ríːɣə̂nwàː Tʃóknvòn ʧi ɓaskə yélɣə̂n //
 # text_en = Because of that, if you are wont to do evil in secret, secretly, without anyone seeing you without anyone knowing about it, now, ask yourself if all your wanderings, God does not see you.
-1	nə́	nə́	ADP	_	ExtPos=ADP	4	case	_	AlignBegin=251660|AlignEnd=251828|Gloss=for
-2	dur	dur	NOUN	_	_	4	obj	_	AlignBegin=251828|AlignEnd=251996|Gloss=cause|InIdiom=Yes
-3	ɣə́	kə́	ADP	_	_	4	dep	_	AlignBegin=251996|AlignEnd=252164|Gloss=of|InIdiom=Yes
+1	nə́	nə́	ADP	_	ExtPos=ADP	4	case	_	AlignBegin=251660|AlignEnd=251828|Gloss=for|Idiom=Yes
+2	dur	dur	NOUN	_	_	1	fixed	_	AlignBegin=251828|AlignEnd=251996|Gloss=cause|InIdiom=Yes
+3	ɣə́	kə́	ADP	_	_	1	fixed	_	AlignBegin=251996|AlignEnd=252164|Gloss=of|InIdiom=Yes
 4	gíː	gíː	PRON	_	Deixis=Remt|PronType=Dem	23	obl	_	AlignBegin=252164|AlignEnd=252332|Gloss=Remt
 5	yâːn	yâːn	SCONJ	_	_	7	dep	_	AlignBegin=253380|AlignEnd=253625|Gloss=if
 6	ɮàrwàː	ɮàr	NOUN	_	Number=Sing|Person=2	7	nsubj	_	AlignBegin=253625|AlignEnd=253747|Gloss=dance.2SingGen|wordform=ɮàr
@@ -1226,10 +1226,10 @@
 4	mə̀	tə̀	AUX	_	Mood=Sub|Number=Plur|Person=1	5	aux	_	AlignBegin=373980|AlignEnd=374245|Gloss=1Plur.Sub
 5	ndə̀ːr	ndəːr	VERB	_	_	0	root	_	AlignBegin=374245|AlignEnd=374510|Gloss=repair
 6	tsə́tngə́nwôpíː	tsə́tn	VERB	_	ExtPos=NOUN|Number=Plur|Person=1|VerbForm=Vnoun	5	obj	_	Accomplished=Yes|AlignBegin=374510|AlignEnd=374576|Gloss=sit-Vnoun.1PlurGen.Acpl|wordform=tsə́tn
-7	nə́	nə́	ADP	_	ExtPos=SCONJ	14	mark	_	AlignBegin=375920|AlignEnd=376080|Gloss=for
-8	dur	dur	NOUN	_	_	14	obj	_	AlignBegin=376080|AlignEnd=376240|Gloss=cause|InIdiom=Yes
-9	ɣə́	kə́	ADP	_	_	14	dep	_	AlignBegin=376240|AlignEnd=376400|Gloss=of|InIdiom=Yes
-10	tu	tu	SCONJ	_	_	9	dep	_	AlignBegin=376400|AlignEnd=376560|Gloss=Qot|InIdiom=Yes
+7	nə́	nə́	ADP	_	ExtPos=SCONJ	14	mark	_	AlignBegin=375920|AlignEnd=376080|Gloss=for|Idiom=Yes
+8	dur	dur	NOUN	_	_	7	fixed	_	AlignBegin=376080|AlignEnd=376240|Gloss=cause|InIdiom=Yes
+9	ɣə́	kə́	ADP	_	_	7	fixed	_	AlignBegin=376240|AlignEnd=376400|Gloss=of|InIdiom=Yes
+10	tu	tu	SCONJ	_	_	7	fixed	_	AlignBegin=376400|AlignEnd=376560|Gloss=Qot|InIdiom=Yes
 11	máːɣə̂n	máni	VERB	_	ExtPos=NOUN|VerbForm=Vnoun	14	nsubj	_	AlignBegin=377960|AlignEnd=378154|Gloss=come-Vnoun|wordform=máni
 12	Tʃóknvònès	Tʃóɣnvòn	NOUN	_	Definite=Def	11	obj	_	AlignBegin=378347|AlignEnd=378541|Gloss=God.Def|wordform=Tʃóknvòn
 13	àː	áː	AUX	_	Aspect=Perf|Number=Sing|Person=3	14	aux	_	AlignBegin=379520|AlignEnd=379720|Gloss=3Sing.Perf
@@ -1709,7 +1709,7 @@
 26	yaːl	yaːl	VERB	_	_	24	ccomp	_	AlignBegin=546420|AlignEnd=546600|Gloss=look_after
 27-28	ɗaː	_	_	_	_	_	_	_	_
 27	ɗa	ɗa	ADV	_	_	26	advmod	_	AlignBegin=546600|AlignEnd=546690|Gloss=again
-28	aː	ŋaː	PART	_	PartType=Ill	10	advmod	_	AlignBegin=546690|AlignEnd=546780|Gloss=Int
+28	aː	aː	PART	_	PartType=Ill	10	advmod	_	AlignBegin=546690|AlignEnd=546780|Gloss=Int
 29	koː	koː	PART	_	PartType=Disc	10	discourse	_	AlignBegin=546780|AlignEnd=546960|Gloss=DM
 30	?//	?//	PUNCT	_	_	4	punct	_	AlignBegin=546960|AlignEnd=547140|Gloss=PUNCT
 
@@ -1818,7 +1818,7 @@
 12	kə	kə	PRON	_	Number=Sing|Person=2|PronType=Prs	11	obj	_	AlignBegin=584801|AlignEnd=584894|Gloss=2Sing.OBJ|wordform==kə
 13	ɣá	ká	ADP	_	_	14	case	_	AlignBegin=584894|AlignEnd=585081|Gloss=at
 14	zàːri	zàːr	NOUN	_	Definite=Ind	11	obl:arg	_	AlignBegin=585081|AlignEnd=585268|Gloss=right
-15	aː	ŋaː	PART	_	PartType=Ill	11	advmod	_	AlignBegin=585268|AlignEnd=585455|Gloss=Int|wordform=a:
+15	aː	aː	PART	_	PartType=Ill	11	advmod	_	AlignBegin=585268|AlignEnd=585455|Gloss=Int|wordform=a:
 16	kóː	kóː	CCONJ	_	_	18	cc	_	AlignBegin=585960|AlignEnd=586135|Gloss=or
 17	ɣá	ká	ADP	_	_	18	mark	_	AlignBegin=586135|AlignEnd=586310|Gloss=at
 18	napti	napti	VERB	_	_	11	conj	_	AlignBegin=586310|AlignEnd=586485|Gloss=left
