@@ -1,65 +1,66 @@
 Running the following version of UD tools:
-commit 26e6c87a2f518322d15901a351199b6be6569062
+commit b39dc4111bb13658bc0c204b48bb78b492e45d2b
 Author: Dan Zeman <zeman@ufal.mff.cuni.cz>
-Date:   Fri Nov 7 15:39:58 2025 +0100
+Date:   Tue May 5 17:01:41 2026 +0200
 Evaluating the following revision of UD_Zaar-Autogramm:
-commit 9776453c4161149cc3746b3ae7a77cab10711882
-Merge: 63b2f23 21d06e5
+commit b766198c6e903d5abdbbf07a61abc4279fdf4427
+Merge: df0ad4d ea6a932
 Author: Dan Zeman <zeman@ufal.mff.cuni.cz>
 CoNLL-U data file regular expression = '(.+)-ud-(train|dev|test)\.conllu'
 Language-treebank code (from CoNLL-U file name) = 'say_autogramm'
 Language code (from CoNLL-U file name) = 'say'
 Found the following data files: say_autogramm-ud-test.conllu, say_autogramm-ud-train.conllu
-Size: counted 20758 of 20758 words (nodes).
-Size: min(0, log((N/1000)**2)) = 6.06586342908619.
+Size: counted 20952 of 20952 words (nodes).
+Size: min(0, log((N/1000)**2)) = 6.08446821441082.
 Size: maximum value 13.815511 is for 1000000 words or more.
 Split: Found more than 10000 training words.
 Split: Did not find at least 10000 development words.
 Split: Found at least 10000 test words.
-Lemmas: '_' is the most frequent lemma.
+Lemmas: source of annotation (from README) factor is 1.
 Universal POS tags: 16 out of 17 found in the corpus.
 Universal POS tags: source of annotation (from README) factor is 1.
-Features: 8626 out of 20758 total words have one or more features.
+Features: 8315 out of 20952 total words have one or more features.
 Features: source of annotation (from README) factor is 1.
 Universal relations: 32 out of 37 found in the corpus.
 Universal relations: source of annotation (from README) factor is 1.
 Genres: found 1 out of 18 known.
 /net/work/people/zeman/unidep/tools/validate.py --lang say --max-err=10 UD_Zaar-Autogramm/say_autogramm-ud-test.conllu
-[Line 125 Sent SAY_BC_CONV_01_013-014]: [L3 Warning pron-det-without-prontype] The word 'gyaː' is tagged 'DET' but it lacks the 'PronType' feature
-[Line 158 Sent SAY_BC_CONV_01_016-020]: [L3 Warning pron-det-without-prontype] The word 'gyáː' is tagged 'DET' but it lacks the 'PronType' feature
-[Line 330 Sent SAY_BC_CONV_01_041-041]: [L3 Warning pron-det-without-prontype] The word 'wón' is tagged 'DET' but it lacks the 'PronType' feature
-[Line 536 Sent SAY_BC_CONV_01_061-061]: [L3 Warning pron-det-without-prontype] The word 'wón' is tagged 'DET' but it lacks the 'PronType' feature
-[Line 795 Sent SAY_BC_CONV_01_087-091]: [L3 Warning pron-det-without-prontype] The word 'gòn' is tagged 'DET' but it lacks the 'PronType' feature
-[Line 878 Sent SAY_BC_CONV_01_100-100]: [L3 Warning pron-det-without-prontype] The word 'wón' is tagged 'DET' but it lacks the 'PronType' feature
-[Line 938 Sent SAY_BC_CONV_01_105-105]: [L3 Warning pron-det-without-prontype] The word 'sú' is tagged 'DET' but it lacks the 'PronType' feature
-[Line 1226 Sent SAY_BC_CONV_01_133-133]: [L3 Warning pron-det-without-prontype] The word 'wón' is tagged 'DET' but it lacks the 'PronType' feature
-[Line 1296 Sent SAY_BC_CONV_01_141-141]: [L3 Warning pron-det-without-prontype] The word 'bétwôpm' is tagged 'PRON' but it lacks the 'PronType' feature
-[Line 1987 Sent SAY_BC_CONV_01_233-236]: [L3 Warning flat-foreign-upos-feats] The child of a flat:foreign relation should have UPOS X and Foreign=Yes (but no other features).
-...suppressing further errors regarding Warning
-Warnings: 166
+[Line 124 Sent SAY_BC_CONV_01_013-014]: [L3 WARNING pron-det-without-prontype] The word 'gyaː' is tagged 'DET' but it lacks the 'PronType' feature
+[Line 157 Sent SAY_BC_CONV_01_016-020]: [L3 WARNING pron-det-without-prontype] The word 'gyáː' is tagged 'DET' but it lacks the 'PronType' feature
+[Line 329 Sent SAY_BC_CONV_01_041-041]: [L3 WARNING pron-det-without-prontype] The word 'wón' is tagged 'DET' but it lacks the 'PronType' feature
+[Line 535 Sent SAY_BC_CONV_01_061-061]: [L3 WARNING pron-det-without-prontype] The word 'wón' is tagged 'DET' but it lacks the 'PronType' feature
+[Line 796 Sent SAY_BC_CONV_01_087-091]: [L3 WARNING pron-det-without-prontype] The word 'gòn' is tagged 'DET' but it lacks the 'PronType' feature
+[Line 879 Sent SAY_BC_CONV_01_100-100]: [L3 WARNING pron-det-without-prontype] The word 'wón' is tagged 'DET' but it lacks the 'PronType' feature
+[Line 939 Sent SAY_BC_CONV_01_105-105]: [L3 WARNING pron-det-without-prontype] The word 'sú' is tagged 'DET' but it lacks the 'PronType' feature
+[Line 1233 Sent SAY_BC_CONV_01_133-133]: [L3 WARNING pron-det-without-prontype] The word 'wón' is tagged 'DET' but it lacks the 'PronType' feature
+[Line 1302 Sent SAY_BC_CONV_01_141-141]: [L3 WARNING pron-det-without-prontype] The word 'bétwôpm' is tagged 'PRON' but it lacks the 'PronType' feature
+[Line 1996 Sent SAY_BC_CONV_01_233-236]: [L3 WARNING flat-foreign-upos-feats] The child of a flat:foreign relation should have UPOS X and Foreign=Yes (but no other features).
+...suppressing further messages regarding WARNING/MORPHO
+[Line 17231 Sent SAY_BC_READ_12_NAR_The_master_thief_053-054]: [L2 WARNING misc-extra-space] MISC attribute value ends with space in 'Gloss=3Plur.OBJ '.
+Warnings: 165
 *** PASSED ***
 /net/work/people/zeman/unidep/tools/validate.py --lang say --max-err=10 UD_Zaar-Autogramm/say_autogramm-ud-train.conllu
-[Line 118 Sent SAY_BC_CONV_03_016-020]: [L3 Warning pron-det-without-prontype] The word 'gyaː' is tagged 'DET' but it lacks the 'PronType' feature
-[Line 121 Sent SAY_BC_CONV_03_016-020]: [L3 Warning pron-det-without-prontype] The word 'gyaː' is tagged 'DET' but it lacks the 'PronType' feature
-[Line 224 Sent SAY_BC_CONV_03_034-038]: [L3 Warning pron-det-without-prontype] The word 'gyaː' is tagged 'DET' but it lacks the 'PronType' feature
-[Line 406 Sent SAY_BC_CONV_03_061-068]: [L3 Warning flat-foreign-upos-feats] The child of a flat:foreign relation should have UPOS X and Foreign=Yes (but no other features).
-[Line 405 Sent SAY_BC_CONV_03_061-068]: [L3 Warning flat-foreign-upos-feats] The parent of a flat:foreign relation should have UPOS X and Foreign=Yes (but no other features).
-[Line 417 Sent SAY_BC_CONV_03_061-068]: [L3 Warning pron-det-without-prontype] The word 'gón' is tagged 'DET' but it lacks the 'PronType' feature
-[Line 419 Sent SAY_BC_CONV_03_061-068]: [L3 Warning flat-foreign-upos-feats] The child of a flat:foreign relation should have UPOS X and Foreign=Yes (but no other features).
-[Line 421 Sent SAY_BC_CONV_03_061-068]: [L3 Warning pron-det-without-prontype] The word 'gyaː' is tagged 'DET' but it lacks the 'PronType' feature
-[Line 472 Sent SAY_BC_CONV_03_072-072]: [L3 Warning flat-foreign-upos-feats] The child of a flat:foreign relation should have UPOS X and Foreign=Yes (but no other features).
-[Line 471 Sent SAY_BC_CONV_03_072-072]: [L3 Warning flat-foreign-upos-feats] The parent of a flat:foreign relation should have UPOS X and Foreign=Yes (but no other features).
-...suppressing further errors regarding Warning
-Warnings: 272
+[Line 117 Sent SAY_BC_CONV_03_016-020]: [L3 WARNING pron-det-without-prontype] The word 'gyaː' is tagged 'DET' but it lacks the 'PronType' feature
+[Line 120 Sent SAY_BC_CONV_03_016-020]: [L3 WARNING pron-det-without-prontype] The word 'gyaː' is tagged 'DET' but it lacks the 'PronType' feature
+[Line 223 Sent SAY_BC_CONV_03_034-038]: [L3 WARNING pron-det-without-prontype] The word 'gyaː' is tagged 'DET' but it lacks the 'PronType' feature
+[Line 406 Sent SAY_BC_CONV_03_061-068]: [L3 WARNING flat-foreign-upos-feats] The child of a flat:foreign relation should have UPOS X and Foreign=Yes (but no other features).
+[Line 405 Sent SAY_BC_CONV_03_061-068]: [L3 WARNING flat-foreign-upos-feats] The parent of a flat:foreign relation should have UPOS X and Foreign=Yes (but no other features).
+[Line 417 Sent SAY_BC_CONV_03_061-068]: [L3 WARNING pron-det-without-prontype] The word 'gón' is tagged 'DET' but it lacks the 'PronType' feature
+[Line 419 Sent SAY_BC_CONV_03_061-068]: [L3 WARNING flat-foreign-upos-feats] The child of a flat:foreign relation should have UPOS X and Foreign=Yes (but no other features).
+[Line 421 Sent SAY_BC_CONV_03_061-068]: [L3 WARNING pron-det-without-prontype] The word 'gyaː' is tagged 'DET' but it lacks the 'PronType' feature
+[Line 472 Sent SAY_BC_CONV_03_072-072]: [L3 WARNING flat-foreign-upos-feats] The child of a flat:foreign relation should have UPOS X and Foreign=Yes (but no other features).
+[Line 471 Sent SAY_BC_CONV_03_072-072]: [L3 WARNING flat-foreign-upos-feats] The parent of a flat:foreign relation should have UPOS X and Foreign=Yes (but no other features).
+...suppressing further messages regarding WARNING/MORPHO
+Warnings: 274
 *** PASSED ***
 Validity: 1
 (weight=0.111111111111111) * (score{features}=0.5) = 0.0555555555555556
 (weight=0.111111111111111) * (score{genres}=0.0555555555555556) = 0.00617283950617284
-(weight=0.111111111111111) * (score{lemmas}=0.01) = 0.00111111111111111
-(weight=0.37037037037037) * (score{size}=0.439061835871812) = 0.162615494767338
+(weight=0.111111111111111) * (score{lemmas}=1) = 0.111111111111111
+(weight=0.37037037037037) * (score{size}=0.440408495139059) = 0.163114257458911
 (weight=0.0740740740740741) * (score{split}=0.67) = 0.0496296296296296
 (weight=0.111111111111111) * (score{tags}=0.941176470588235) = 0.104575163398693
 (weight=0.111111111111111) * (score{udeprels}=0.864864864864865) = 0.0960960960960961
-(TOTAL score=0.475755890064596) * (availability=1) * (validity=1) = 0.475755890064596
-STARS = 2.5
-UD_Zaar-Autogramm	0.475755890064596	2.5
+(TOTAL score=0.586254652756169) * (availability=1) * (validity=1) = 0.586254652756169
+STARS = 3
+UD_Zaar-Autogramm	0.586254652756169	3
