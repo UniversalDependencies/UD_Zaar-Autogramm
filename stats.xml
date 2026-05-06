@@ -5,136 +5,129 @@
        fused is the number of tokens that are split to two or more syntactic words
        The words and fused elements can be omitted if no token is split to smaller syntactic words. -->
   <size>
-    <total><sentences>2105</sentences><tokens>19484</tokens><words>20758</words><fused>1157</fused></total>
-    <train><sentences>978</sentences><tokens>9988</tokens><words>10578</words><fused>535</fused></train>
+    <total><sentences>2105</sentences><tokens>19629</tokens><words>20952</words><fused>1210</fused></total>
+    <train><sentences>978</sentences><tokens>10103</tokens><words>10712</words><fused>556</fused></train>
     <dev><sentences>0</sentences><tokens>0</tokens><words>0</words><fused>0</fused></dev>
-    <test><sentences>1127</sentences><tokens>9496</tokens><words>10180</words><fused>622</fused></test>
+    <test><sentences>1127</sentences><tokens>9526</tokens><words>10240</words><fused>654</fused></test>
   </size>
-  <lemmas unique="1545" /><!-- //, <, tòː, tu, ɗan, tə, ká, fi, hŋ́, ɬə, ?//, tə́, wul, !//, ɗi -->
-  <forms unique="2767" /><!-- //, <, á, tə́, tu, tôː, ɗan, ?//, tə, !//, hŋ́, tə̀, ||, wò, tá -->
-  <fusions unique="762" /><!-- ɗǎː, wùltə̀, fítə̀, gìːtə̀, mə́nɗi, wúltə̀, ɗǎŋ, fini, wúltə, ʧímtə̀, fitə, fîn, yin, ɓastə, ɓaʃí -->
+  <lemmas unique="1540" /><!-- //, á, <, a, tòː, tu, ɗan, yáː, tə, hŋ́, ká, áː, tə̀, TaYiNa, fi -->
+  <forms unique="2723" /><!-- //, <, á, tə́, tu, tôː, ɗan, hŋ́, ?//, tə, !//, tá, tə̀, yáː, || -->
+  <fusions unique="761" /><!-- ŋǎːn, ŋâː, ɗǎː, ǎːn, wùltə̀, fítə̀, gìːtə̀, mə́nɗi, wúltə̀, ɗǎŋ, fini, wúltə, ʧímtə̀, fitə, fîn -->
   <!-- Statistics of universal POS tags. The comments show the most frequent lemmas. -->
   <tags unique="16">
-    <tag name="ADJ">146</tag><!-- ŋaː, kúskə̀, mari, fyáːli, ʒèlì, mərə, gə̀rə́, nâs, nʤwâːtn, mondá -->
-    <tag name="ADP">965</tag><!-- ká, tə́, kə́, nə́, ɗa, ɗan, nə, ɓas, teː, gìp -->
-    <tag name="ADV">1026</tag><!-- séː, ʧík, sòːséy, kəndá, ɗan, ɗáni, káwây, káwêy, tá, ɗa -->
-    <tag name="AUX">3093</tag><!-- _ -->
+    <tag name="ADJ">147</tag><!-- ŋaː, kúskə̀, mari, fyáːli, ʒèlì, mərə, gə̀rə́, nâs, nʤwâːtn, mondá -->
+    <tag name="ADP">984</tag><!-- ká, tə́, kə́, nə́, ɗa, ɗan, nə, ɓas, teː, gìp -->
+    <tag name="ADV">1044</tag><!-- séː, káwêy, ʧík, ɗan, sòːséy, kəndá, ɗáni, tá, ɗa, tsəní -->
+    <tag name="AUX">3174</tag><!-- á, a, yáː, tə̀, áː, TaYiNa, yǎː, yi, nə, yiká -->
     <tag name="CCONJ">235</tag><!-- kóː, tə́, àmá, àmáː, séː, kúmá, hár, á, but, daga -->
-    <tag name="DET">360</tag><!-- gyáː, wón, gíː, gyaː, gón, ɓurúk, giní, gyòː, gyôː, kóː -->
+    <tag name="DET">363</tag><!-- gyáː, wón, gíː, gyaː, gón, ɓurúk, giní, gyòː, ɓét, gyôː -->
     <tag name="INTJ">588</tag><!-- èː, m̀ː, áy, ká, yáwwàː, tòː, éy, ə̀ːm, m̀ːhm̂ː, ə̀ː -->
-    <tag name="NOUN">2555</tag><!-- ngə́tn, vìː, lə̂p, dzàŋ, də̀n, gə̀t, gùŋ, lə̌pm, zaːr, laː -->
+    <tag name="NOUN">2549</tag><!-- ngə́tn, vìː, lə̂p, dzàŋ, də̀n, gə̀t, gùŋ, lə̌pm, zaːr, laː -->
     <tag name="NUM">93</tag><!-- nàmbóŋ, mâːy, wupsə, mbə́ɬəŋ, lim, nandam, nàmbón, watsə́may, ɗàrí, dubu -->
-    <tag name="PART">1807</tag><!-- tòː, hŋ́, ɗi, bàː, ŋaː, kən, oː, ni, kúmá, mə́n -->
+    <tag name="PART">1935</tag><!-- tòː, hŋ́, ɗi, kən, aː, bàː, oː, ni, kúmá, mə́n -->
     <tag name="PRON">1382</tag><!-- tə, káy, kə, gòs, ʃí, mə, mí, yáːni, gíː, gón -->
     <tag name="PROPN">415</tag><!-- Nòːmáu, Zaːr, Tʃoɣn, Tʃóɣnvòn, Kímsə, Malâːr, Yéːsu, Bàːbá, Daːvàrì, Ngas -->
-    <tag name="PUNCT">3374</tag><!-- //, <, ?//, !//, ||, //=, &//, |c, [, >+ -->
-    <tag name="SCONJ">841</tag><!-- tu, ɗan, yâːn, wéy, séː, ɗa, hár, ín, kóː, dón -->
-    <tag name="VERB">3645</tag><!-- fi, ɬə, wul, yel, máni, yi, gaː, man, tu, nda -->
-    <tag name="X">233</tag><!-- ʃèː, XX, x, ba, shi, a, nan, ɗaya, ya, ga -->
+    <tag name="PUNCT">3373</tag><!-- //, <, ?//, !//, ||, //=, &//, |c, [, >+ -->
+    <tag name="SCONJ">792</tag><!-- tu, ɗan, yâːn, séː, ɗa, hár, ín, kóː, dón, dòmín -->
+    <tag name="VERB">3646</tag><!-- fi, ɬə, wul, yel, máni, yi, gaː, man, tu, nda -->
+    <tag name="X">232</tag><!-- ʃèː, XX, x, ba, shi, a, nan, ɗaya, ya, ga -->
   </tags>
   <!-- Statistics of features and values. The comments show the most frequent word forms. -->
-  <feats unique="56">
-    <feat name="Aspect" value="Aor" upos="AUX">938</feat><!-- á, tə́, kə, mə, mə́, kə́, ɣə́, kə̀, gə́, mə̀ -->
-    <feat name="Aspect" value="Conc" upos="AUX">7</feat><!-- myáːnaː, ʧáːnaː, myàːnaː, ʧínaː -->
-    <feat name="Aspect" value="Imp" upos="AUX">346</feat><!-- ʧáː, ʧǎː, myǎː, myáː, mə̀tàyáː, kyáː, kə̀tàyáː, ʧàː, tə̀tàyáː, myàː -->
-    <feat name="Aspect" value="ImpIter" upos="AUX">17</feat><!-- ʧàːyí, ʧàːyi, kyàːyi, myàːyí, ʧáːyi, myàːyi, myáːyi, myǎːyi -->
-    <feat name="Aspect" value="Iter" upos="AUX,PART">113</feat><!-- ni, nì, yi, táyi, kîː, mayi, nəni, k~, káyi, miː -->
-    <feat name="Aspect" value="Perf" upos="AUX">248</feat><!-- àː, káː, máː, tàː, màː, tàːtá, àːtá, máːtá, máːyí, àːyí -->
-    <feat name="Aspect" value="Prog" upos="AUX">36</feat><!-- ʧàː, ʧìɣá, ʧǎː, myǎː, kiɣá, myaː, kyǎː, kìɣá, miɣá, myàː -->
+  <feats unique="48">
+    <feat name="Aspect" value="Imp" upos="AUX">362</feat><!-- ʧáː, yáː, ʧǎː, myǎː, myáː, ʧàː, kyáː, yǎː, myàː, kyǎː -->
+    <feat name="Aspect" value="Iter" upos="AUX">36</feat><!-- yi, yí, kíyí, yì, k~, miː, míyí, yiː, ʧíyí -->
+    <feat name="Aspect" value="Perf" upos="AUX">248</feat><!-- àː, káː, máː, tàː, màː, tà~ -->
+    <feat name="Aspect" value="Prog" upos="AUX">43</feat><!-- ʧàː, ʧìɣá, ʧǎː, myáːnaː, myǎː, kiɣá, myaː, ʧáːnaː, kyǎː, kìɣá -->
     <feat name="Definite" value="Cons" upos="ADJ,NOUN">176</feat><!-- lə̌pm, gùŋ, lǎː, mərə́, ŋǎː, zǎːrwôpm, gút, məːríwôpm, gǎːm, lóːkaʧí -->
-    <feat name="Definite" value="Def" upos="NOUN,PRON,PROPN,VERB">133</feat><!-- vèːs, gə̀ɗès, kúnês, lǎːs, dàːʃès, kúnés, murês, màːʃínês, Dʒòʃès, dàlíːlês -->
-    <feat name="Definite" value="Ind" upos="NOUN,NUM,PROPN">176</feat><!-- gə̀ɗì, ləpí, də̀nì, mə́ːri, ngə́ʃi, dàːʃì, gìːrì, lìmâːn, lə́ɓi, nàmbóɲi -->
+    <feat name="Definite" value="Def" upos="ADJ,DET,NOUN,NUM,PRON,PROPN,VERB">206</feat><!-- vèːs, gêːs, gə̀ɗès, dàːʃès, kúnês, lǎːs, vèːʃíː, kúnés, murês, màːʃínês -->
+    <feat name="Definite" value="Ind" upos="NOUN,NUM">174</feat><!-- gə̀ɗì, ləpí, də̀nì, mə́ːri, ngə́ʃi, dàːʃì, gìːrì, lìmâːn, lə́ɓi, nàmbóɲi -->
     <feat name="Definite" value="Spec" upos="DET,PRON">139</feat><!-- wón, gón, gyaːgón, gòn, góníː, wátan -->
-    <feat name="Deixis" value="Prox" upos="ADV,AUX,DET,NOUN,PART,PRON,PROPN,VERB">100</feat><!-- gín, ɣənín, murín, giní, múrín, ngəʃín, ɗangənín, gáyín, ɲêːtə́n, Bàtúːrén -->
-    <feat name="Deixis" value="Remt" upos="ADJ,ADV,DET,NOUN,NUM,PART,PRON,PROPN,VERB">976</feat><!-- gíː, tíː, ɬíː, ɬǐː, ɬǎːy, fǐː, ʧǐː, gêːs, məʃíː, ndǎy -->
-    <feat name="ExtPos" value="ADJ" upos="NOUN,VERB">7</feat><!-- gwaɬkay, kúŋni, məʃí, məʃíː, ɲâŋnês, ʃéːgè, ʒèy -->
-    <feat name="ExtPos" value="ADP" upos="ADP,SCONJ">29</feat><!-- á, nə́, teː, ɣá, kàmán, séː, ɗa, ɗan, hár, sábòːtu -->
-    <feat name="ExtPos" value="ADV" upos="ADP,ADV,AUX,X">9</feat><!-- dǎː, gaba, hár, kàmán, mi, ngaːláy, nə́, sosai, ʧi -->
-    <feat name="ExtPos" value="NOUN" upos="NOUN,VERB">256</feat><!-- ɗə́ːlɣə́n, láːpkə̂n, mbútkə̂n, yélɣə̂n, fíɣə̂n, láːpkə́nì, vyàːɣə̀n, ɬyáɣə̂n, ʧáːɣə̂n, ʧíɣə̂n -->
-    <feat name="ExtPos" value="SCONJ" upos="ADP,SCONJ,VERB">30</feat><!-- séː, tu, ɗan, kàmán, dàʧêːwáː, ín, kóː, naː, nə́, séy -->
-    <feat name="ExtPos" value="VERB" upos="SCONJ,VERB">4</feat><!-- wul, fí, tu -->
-    <feat name="Foreign" value="Yes" upos="ADP,ADV,CCONJ,INTJ,NOUN,NUM,PART,PRON,PROPN,SCONJ,VERB,X">256</feat><!-- bâː, nan, ba, a, kura, shi, tunda, kafin, ɗaya, OK -->
-    <feat name="Mood" value="Ast" upos="PART">102</feat><!-- oː, òː, ǒːy, hôː, oːhoː, woː -->
+    <feat name="Deixis" value="Prox" upos="ADV,DET,NOUN,PART,PRON,PROPN,VERB">100</feat><!-- gín, ɣənín, murín, giní, múrín, ngəʃín, ɗangənín, gáyín, ɲêːtə́n, Bàtúːrén -->
+    <feat name="Deixis" value="Remt" upos="ADJ,ADV,DET,NOUN,NUM,PART,PRON,PROPN">291</feat><!-- gíː, gêːs, ʧǐː, ʧiɣə́y, gòʃíː, ɬúːy, məníː, tíː, wôpíː, gə̀tíː -->
+    <feat name="Evident" value="Nfh" upos="PART">33</feat><!-- wéy -->
+    <feat name="ExtPos" value="ADJ" upos="VERB">4</feat><!-- kúŋni, məʃí, məʃíː, ɲâŋnês -->
+    <feat name="ExtPos" value="ADP" upos="ADP,VERB">28</feat><!-- á, nə́, teː, ɣá, kàmán, séː, ɗa, ɗan, hár, mop -->
+    <feat name="ExtPos" value="NOUN" upos="VERB">255</feat><!-- ɗə́ːlɣə́n, láːpkə̂n, mbútkə̂n, yélɣə̂n, fíɣə̂n, láːpkə́nì, vyàːɣə̀n, ɬyáɣə̂n, ʧáːɣə̂n, ʧíɣə̂n -->
+    <feat name="ExtPos" value="SCONJ" upos="ADP,SCONJ">22</feat><!-- nə́, kàmán, ɗan, dàʧêːwáː, séː, ín, kóː, tu, ìdán, ɓanɗan -->
+    <feat name="Foreign" value="Yes" upos="ADP,ADV,CCONJ,INTJ,NOUN,NUM,PART,PRON,PROPN,SCONJ,VERB,X">259</feat><!-- bâː, nan, ba, a, kura, shi, tunda, kafin, ɗaya, OK -->
     <feat name="Mood" value="Cnd" upos="AUX">221</feat><!-- yáː, kyáː, myáː, myàː, yǎː, kyàː, ʧǎː, kyǎː, myǎː, mǎː -->
-    <feat name="Mood" value="Imp" upos="VERB">43</feat><!-- ɬíː, gáːy, sǔn, yel, buːɗé, fi, fuː, fǐn, gəmíː, kap -->
-    <feat name="Mood" value="Int" upos="PART">22</feat><!-- eː, weː -->
-    <feat name="Mood" value="Irr" upos="ADV,AUX,PART">133</feat><!-- aː, dàː, mìː, mîː, àː, ʧîː, tîː, ŋaː, ʧíyǎː, ʧíː -->
-    <feat name="Mood" value="Qot" upos="SCONJ">44</feat><!-- wéy, tu -->
-    <feat name="Mood" value="Sub" upos="AUX">251</feat><!-- tə̀, mə̀, àː, tə̀yì -->
-    <feat name="Number" value="Plur" upos="ADJ,AUX,DET,NOUN,PRON,PROPN,VERB">1751</feat><!-- tə́, tá, gyáː, mə́, ʃí, mə̀, kə́, má, mí, mə́n -->
-    <feat name="Number" value="Sing" upos="AUX,NOUN,PRON,VERB">2909</feat><!-- á, tə, wò, kə, tə̀, àː, mə, yáː, ɣáy, ka -->
-    <feat name="PartType" value="Adv" upos="PART">355</feat><!-- ɗi, ni, mə́n, ɗì, ɗa, nì, məníː, mə́níː, nəni, ní -->
-    <feat name="PartType" value="Disc" upos="PART">13</feat><!-- tôː, koː, kóː, kòː -->
-    <feat name="PartType" value="Foc" upos="PART">607</feat><!-- tôː, tòː, ɣən, kúmá, ɣəndí, oː, ɣənín, kəndí, kàm, wàːtòː -->
-    <feat name="PartType" value="Illoc" upos="PART">206</feat><!-- oː, aː, eː, òː, àː, ŋaː, ŋǎː, ǒːy, hôː, oːhoː -->
-    <feat name="PartType" value="Neg" upos="PART">437</feat><!-- hŋ́, bàː, ŋâː, ń, ŋǎːn, ǎːn, báː, ə̌n, káɗâ, ə̌ŋ -->
-    <feat name="PartType" value="Pred" upos="PART">32</feat><!-- ɗa, bâː, àkwéy, baːbù -->
-    <feat name="PartType" value="Top" upos="PART">156</feat><!-- máː, kúmá, fáː, deː, kàm, kóː, déː, kwǎː, kòː, fá -->
-    <feat name="Person" value="1" upos="AUX,NOUN,PRON,VERB">979</feat><!-- mə, mə́, mə̀, myáː, má, mí, ma, myǎː, m, myâːn -->
-    <feat name="Person" value="2" upos="AUX,NOUN,PRON,VERB">797</feat><!-- kə, ka, kə́, kyáː, ɣə, káː, ká, àː, ɣə́, kí -->
-    <feat name="Person" value="3" upos="AUX,NOUN,PRON,VERB">2486</feat><!-- á, tə, tə́, tə̀, wò, àː, tá, yáː, ɣáy, gòs -->
-    <feat name="Polarity" value="Neg" upos="INTJ,PART">464</feat><!-- hŋ́, bàː, ŋâː, ń, ŋǎːn, ǎːn, bâː, báː, ə̌n, káɗâ -->
+    <feat name="Mood" value="Imp" upos="VERB">1</feat><!-- wu -->
+    <feat name="Mood" value="Irr" upos="ADV,AUX,SCONJ">48</feat><!-- dàː, mìyì, ʧíyí, kíyí, míyí, ʧí, tíyí, kóːdàː, kìyì, tì -->
+    <feat name="Mood" value="Sub" upos="AUX">252</feat><!-- tə̀, mə̀, àː -->
+    <feat name="Number" value="Plur" upos="ADJ,AUX,DET,NOUN,PRON,PROPN,VERB">1750</feat><!-- tə́, tá, gyáː, mə́, ʃí, mə̀, kə́, má, mí, mə́n -->
+    <feat name="Number" value="Sing" upos="AUX,NOUN,PRON,VERB">2911</feat><!-- á, tə, wò, tə̀, kə, àː, mə, yáː, ɣáy, ka -->
+    <feat name="PartType" value="Adv" upos="PART">298</feat><!-- ɗi, ni, ɗì, ɗa, nì, məníː, mə́níː, nəni, ní, ɗà -->
+    <feat name="PartType" value="Case" upos="PART">57</feat><!-- mə́n -->
+    <feat name="PartType" value="Disc" upos="PART">546</feat><!-- tôː, tòː, wéy, kúmá, kóː, wàːtòː, kàm, fáː, fâː, koː -->
+    <feat name="PartType" value="Foc" upos="PART">158</feat><!-- ɣən, ɣəndí, kəndí, kən, gəndí, ɣənín, gən, ɣəní, ɣəndá, ɣə̂n -->
+    <feat name="PartType" value="Ill" upos="PART">280</feat><!-- aː, oː, ŋaː, eː, òː, àː, ŋâː, ǒːy, hôː, oːhoː -->
+    <feat name="PartType" value="Neg" upos="PART">435</feat><!-- hŋ́, bàː, ń, ə̌n, báː, káɗâ, ǐn, ə̌ŋ, káɗá, bá -->
+    <feat name="PartType" value="Pred" upos="PART">12</feat><!-- bâː, àkwéy, bàː -->
+    <feat name="PartType" value="Top" upos="PART">146</feat><!-- máː, kúmá, fáː, deː, kàm, déː, kwǎː, kòː, fá, kwaː -->
+    <feat name="Person" value="1" upos="AUX,NOUN,PRON,VERB">979</feat><!-- mə, mə̀, mə́, myáː, má, mí, ma, myǎː, mə̀tà, máː -->
+    <feat name="Person" value="2" upos="AUX,NOUN,PRON,VERB">798</feat><!-- kə, ka, kə́, kyáː, ɣə, káː, ká, kə̀tà, àː, kətá -->
+    <feat name="Person" value="3" upos="AUX,NOUN,PRON,VERB">2485</feat><!-- á, tə, tə́, tə̀, wò, àː, tá, yáː, ɣáy, ʧáː -->
+    <feat name="Polarity" value="Neg" upos="INTJ,PART">462</feat><!-- hŋ́, bàː, ń, bâː, ə̌n, báː, káɗâ, ǐn, ə̌ŋ, ɣən -->
     <feat name="PronType" value="Dem" upos="ADV,DET,PRON">151</feat><!-- gíː, gín, gêːs, giní, ginês, ginín -->
     <feat name="PronType" value="Ind" upos="PRON">12</feat><!-- wáːni, gón, kóːnaːgyòː -->
     <feat name="PronType" value="Int" upos="ADV,DET,PRON">83</feat><!-- wuriː, níː, gyòː, niː, nîː, núː, nûː, ɗòː, gyóː, gyôː -->
-    <feat name="PronType" value="Prs" upos="PRON">1087</feat><!-- tə, ɣáy, gòs, ʃí, mí, tíː, gáy, ɣə, tə̀, yâːn -->
+    <feat name="PronType" value="Prs" upos="PRON">1089</feat><!-- tə, ɣáy, gòs, ʃí, mí, tíː, gáy, ɣə, tə̀, yâːn -->
     <feat name="PronType" value="Rel" upos="ADV,PRON">32</feat><!-- yóːɗan, yáddà, gyóːɗan, yáddiyóːɗan, dàːsóːɗa, yandìyóːɗan, yádda, yáddìyóːɗan, yándiyóːɗan, yə́ddà -->
     <feat name="PronType" value="Tot" upos="PRON">16</feat><!-- kóːnúː, kóːgón, kóːníː -->
-    <feat name="Reflex" value="Yes" upos="PRON">15</feat><!-- gamaʃi, gamaː, kí, mí, ɣə, ʃí, gamawopíː, tə -->
-    <feat name="Tense" value="Fut" upos="AUX">550</feat><!-- wò, tá, ka, má, ma, ká, ɣa, táyi, ɣá, mayi -->
-    <feat name="Tense" value="Imm" upos="AUX">18</feat><!-- kíː, áyí, áyǎː, máːyí, àːyí, mìyǎː, míyàː, yáːyi, ǎːy, ʧìː -->
-    <feat name="Tense" value="Rec" upos="AUX">9</feat><!-- kənáː, mənáː, mənáːyáː, mənáyáː, ánâː, ʧǎːnaː -->
-    <feat name="Tense" value="Rem" upos="AUX">222</feat><!-- átâ, mətá, mə̀tàyáː, kə̀tàyáː, kətá, mə̀tà, kə̀tà, tà, tə̀tà, tə̀tàyáː -->
-    <feat name="VerbForm" value="Inf" upos="VERB">1</feat><!-- yelíwôs -->
+    <feat name="Reflex" value="Yes" upos="PRON">14</feat><!-- gamaʃi, gamaː, kí, mí, ɣə, ʃí, gamawopíː -->
+    <feat name="Tense" value="Fut" upos="AUX">550</feat><!-- wò, tá, ka, má, ma, ká, ɣa, ɣá, ga, gá -->
+    <feat name="Tense" value="Past" upos="AUX">246</feat><!-- átâ, mə̀tà, kə̀tà, mətá, tə̀tà, tá, kətá, tà, áta, mənáː -->
+    <feat name="Tense" value="Pres" upos="AUX">938</feat><!-- á, tə́, kə, mə, mə́, kə́, ɣə́, kə̀, gə́, mə̀ -->
     <feat name="VerbForm" value="Part" upos="VERB">8</feat><!-- naːyês, kúŋni, məʃí, məʃíː, naːyí, naːyíwôs, ɲâŋnês -->
     <feat name="VerbForm" value="Vnoun" upos="VERB">266</feat><!-- ɗə́ːlɣə́n, láːpkə̂n, mbútkə̂n, ʧáːɣə̂n, fíɣə̂n, yélɣə̂n, láːpkə́nì, ríːɣə̂n, vyàːɣə̀n, ɬyáɣə̂n -->
     <feat name="Voice" value="Cau" upos="VERB">16</feat><!-- ɬə́ːr, ɬə̌ːr, ɬə̌ːríː, ʃíʃyár, ʃíːr, kîlár, tùlár, ɗîːɓár, ɬə, ɲolár -->
     <feat name="Voice" value="Pass" upos="VERB">4</feat><!-- kúŋni, məʃí, məʃíː, ɲâŋnês -->
   </feats>
   <!-- Statistics of universal dependency relations. -->
-  <deps unique="43">
-    <dep name="acl">31</dep>
-    <dep name="acl:relcl">189</dep>
-    <dep name="advcl">629</dep>
-    <dep name="advmod">1496</dep>
+  <deps unique="44">
+    <dep name="acl">28</dep>
+    <dep name="acl:relcl">187</dep>
+    <dep name="advcl">635</dep>
+    <dep name="advmod">1571</dep>
     <dep name="amod">95</dep>
     <dep name="appos">42</dep>
     <dep name="aux">2719</dep>
-    <dep name="case">861</dep>
-    <dep name="cc">151</dep>
+    <dep name="case">862</dep>
+    <dep name="cc">152</dep>
     <dep name="cc:preconj">15</dep>
-    <dep name="ccomp">362</dep>
-    <dep name="compound">520</dep>
+    <dep name="ccomp">348</dep>
+    <dep name="compound">657</dep>
     <dep name="compound:prt">355</dep>
     <dep name="compound:redup">50</dep>
-    <dep name="conj">287</dep>
-    <dep name="cop">269</dep>
-    <dep name="csubj">8</dep>
-    <dep name="dep">190</dep>
-    <dep name="det">341</dep>
-    <dep name="discourse">1202</dep>
-    <dep name="dislocated">345</dep>
-    <dep name="fixed">76</dep>
+    <dep name="conj">286</dep>
+    <dep name="cop">221</dep>
+    <dep name="csubj">9</dep>
+    <dep name="dep">178</dep>
+    <dep name="det">343</dep>
+    <dep name="discourse">1257</dep>
+    <dep name="dislocated">354</dep>
+    <dep name="fixed">65</dep>
     <dep name="flat">9</dep>
-    <dep name="flat:foreign">88</dep>
+    <dep name="flat:foreign">93</dep>
     <dep name="flat:name">15</dep>
     <dep name="iobj">381</dep>
-    <dep name="mark">695</dep>
-    <dep name="nmod">268</dep>
+    <dep name="mark">694</dep>
+    <dep name="nmod">270</dep>
+    <dep name="nmod:appos">1</dep>
     <dep name="nmod:poss">62</dep>
-    <dep name="nsubj">499</dep>
+    <dep name="nsubj">487</dep>
     <dep name="nsubj:outer">1</dep>
     <dep name="nummod">46</dep>
-    <dep name="obj">1313</dep>
-    <dep name="obj:lvc">29</dep>
-    <dep name="obl">554</dep>
+    <dep name="obj">1311</dep>
+    <dep name="obj:lvc">30</dep>
+    <dep name="obl">540</dep>
     <dep name="obl:agent">3</dep>
-    <dep name="obl:arg">317</dep>
-    <dep name="parataxis">404</dep>
+    <dep name="obl:arg">326</dep>
+    <dep name="parataxis">410</dep>
     <dep name="punct">3373</dep>
-    <dep name="reparandum">222</dep>
+    <dep name="reparandum">224</dep>
     <dep name="root">2105</dep>
     <dep name="vocative">26</dep>
-    <dep name="xcomp">115</dep>
+    <dep name="xcomp">116</dep>
   </deps>
 </treebank>
